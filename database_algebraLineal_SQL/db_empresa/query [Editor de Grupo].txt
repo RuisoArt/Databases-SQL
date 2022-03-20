@@ -1,0 +1,73 @@
+group: empresa
+
+empleado = {
+    nombreEmpleado:string, apellido:string, dni:string, fechaNacimiento:date, direccion:string, genero:string, salario:number, jefe_dni:string, idDepartamento:number
+
+    'Jaime', 'Borges', '888665555', 1937-11-10, 'Bogota', 'M', 55000, NULL, 1
+    'Juan', 'Perez', '123456789', 1965-01-09, 'Bogota', 'M', 30000, '333445555', 5
+    'Franklin', 'Alvarado', '333445555', 1955-12-08, 'Bogota', 'M', 40000, '888665555', 5
+    'Alicia', 'Zelaya', '999887777', 1968-01-19, 'Medellin', 'F', 25000, '987654321', 4
+    'Jennifer', 'Correa', '987654321', 1941-06-20, 'Cali', 'F', 43000, '888665555', 4
+    'Ramon', 'Quevedo', '666884444', 1962-09-15, 'Bucaramanga', 'M', 38000, '333445555', 5
+    'Homero', 'Simpson', '453453453', 1972-07-31, 'Bogota', 'F', 25000, '333445555', 5
+    'Alan', 'Brito', '987987987', 1969-03-29, 'Bogota', 'M', 25000, '987654321', 4
+}
+
+departamento = {
+    nombreDepartamento:string, idDepartamento:number, jefe_dni:string, fechaInicio:date
+    'Investigacion', 5, '333445555', 1988-05-22
+    'Tecnologia', 4, '987654321', 1995-01-01
+    'Gerencia', 1, '888665555', 1981-06-19
+    'Presupuesto', 3, '987123450', 1999-09-19
+}
+
+ubicaciones_departamento = {
+    idDepartamento:number, ubicacion:string
+    1, 'Bogota'
+    4, 'Cucuta'
+    5, 'Cali'
+    5, 'Monteria'
+    5, 'Bogota'
+}
+
+proyecto = {
+    nombreProyecto:string, idProyecto:number, ubicacion:string, idDepartamento:number
+    'Innovacion', 1, 'Cali', 5
+    'Desarrollo', 2, 'Monteria', 5
+    'Construccion', 3, 'Bogota', 5
+    'Tecnologia', 10, 'Barranquilla', 4
+    'Reorganizacion', 20, 'Bogota', 1
+    'Presupuesto', 30, 'Barranquilla', 4
+    'Bienestar',55,'Bogota',9
+}
+
+horas = {
+    dni:string, idProyecto:number, horas:number
+    '123456789', 1, 32.5
+    '123456789', 2, 7.5
+    '666884444', 3, 40.0
+    '453453453', 1, 20.0
+    '453453453', 2, 20.0
+    '333445555', 2, 10.0
+    '333445555', 3, 10.0
+    '333445555', 10, 10.0
+    '333445555', 20, 10.0
+    '999887777', 30, 30.0
+    '999887777', 10, 10.0
+    '987987987', 10, 35.0
+    '987987987', 30, 5.0
+    '987654321', 30, 20.0
+    '987654321', 20, 15.0
+    '888665555', 20, 0
+}
+
+dependientes = {
+    dni:string, nombreDependiente:string, genero:string, fechaNacimiento:date, vinculo:string
+    '333445555', 'Alicia', 'F', 1986-04-05, 'hija'
+    '333445555', 'Teodoro', 'M', 1983-10-25, 'hijo'
+    '333445555', 'Jennifer', 'F', 1958-05-03, 'esposa'
+    '987654321', 'Alfonso', 'M', 1942-02-28, 'esposa'
+    '123456789', 'Miguel', 'M', 1988-01-04, 'hijo'
+    '123456789', 'Rosa', 'F', 1988-12-30, 'hija'
+    '123456789', 'Isabel', 'F', 1967-05-05, 'esposa'
+}
