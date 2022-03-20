@@ -1,0 +1,7 @@
+id_producto,nombre,descripcion,FK_tipo_producto,FK_precio_producto
+1,tatuaje de runas,el cliente selecciono un tatuaje de catalogo del artista del local,1,1
+2,tatuaje de serpiente,El cliente trajo un tatuaje de referencia,2,2
+3,tatauje unico ,el cliente pidio un tatuaje que fue diseñado en el local,3,3
+4,tatuaje diseñado por cliente amalgama,el cliente trajo un tatuaje diseñado por el,4,4
+5,Expansión,piercing con joya incluida comprada en el local,5,5
+6,barras,piercing sin joya incluida pues el cliente trajo la suya,6,6

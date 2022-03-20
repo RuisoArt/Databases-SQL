@@ -1,0 +1,50 @@
+id_persona,nombre,apellido,edad,dni_persona,pais_origen,fecha_nacimiento,direccion,descripcion,url,telefono,nit,FK_tipo_persona,FK_tienda_tattoo
+1,Cliente Nombre 01,Cliente Apellido 01,,1049651,Colombia,19/06/1929,,Este es un cliente 01,,7201234561,,1,
+2,Cliente Nombre 02,Cliente Apellido 02,,1049652,Colombia,2/01/1911,,Este es un cliente 02,,7201234562,,1,
+3,Cliente Nombre 03,Cliente Apellido 03,,1049653,Colombia,7/04/1935,,Este es un cliente 03,,7201234563,,1,
+4,Cliente Nombre 04,Cliente Apellido 04,,1049654,Colombia,3/11/1916,,Este es un cliente 04,,7201234564,,1,
+5,Cliente Nombre 05,Cliente Apellido 05,,1049655,Colombia,12/05/1912,,Este es un cliente 05,,7201234565,,1,
+6,Cliente Nombre 06,Cliente Apellido 06,,1049656,Colombia,18/04/1919,,Este es un cliente 06,,7201234566,,1,
+7,Cliente Nombre 07,Cliente Apellido 07,,1049657,Colombia,21/08/1906,,Este es un cliente 07,,7201234567,,1,
+8,Proveedor Nombre 01,Proveedor Apellido 01,,1049658,USA,9/11/1910,Calle Fin del Mundo via 01,Este es un proveedor 01,esteestuproveedoroficial01@mail.com,7201234568,P-123456789,2,
+9,Proveedor Nombre 02,Proveedor Apellido 02,,1049659,USA,5/01/1915,Calle Fin del Mundo via 02,Este es un proveedor 02,esteestuproveedoroficial02@mail.com,7201234569,P-123456790,2,
+10,Proveedor Nombre 03,Proveedor Apellido 03,,1049660,USA,13/11/1910,Calle Fin del Mundo via 03,Este es un proveedor 03,esteestuproveedoroficial03@mail.com,7201234570,P-123456791,2,
+11,Proveedor Nombre 04,Proveedor Apellido 04,,1049661,USA,9/06/1923,Calle Fin del Mundo via 04,Este es un proveedor 04,esteestuproveedoroficial04@mail.com,7201234571,P-123456792,2,
+12,Proveedor Nombre 05,Proveedor Apellido 05,,1049662,USA,20/04/1915,Calle Fin del Mundo via 05,Este es un proveedor 05,esteestuproveedoroficial05@mail.com,7201234572,P-123456793,2,
+13,Proveedor Nombre 06,Proveedor Apellido 06,,1049663,USA,7/08/1934,Calle Fin del Mundo via 06,Este es un proveedor 06,esteestuproveedoroficial06@mail.com,7201234573,P-123456794,2,
+14,Proveedor Nombre 07,Proveedor Apellido 07,,1049664,USA,20/06/1924,Calle Fin del Mundo via 07,Este es un proveedor 07,esteestuproveedoroficial07@mail.com,7201234574,P-123456795,2,
+15,Tatuador Nombre 01,Tatuador Apellido 01,,1049665,Colombia,8/07/1906,Cl. 29 ##10a-1,Este es un artista 01,https://www.instagram.com/tattootunja_saloonprive/?r=nametag,311 5287058,123.456.789-D,3,4
+16,Tatuador Nombre 02,Tatuador Apellido 02,,1049666,Colombia,13/07/1925,Cl. 18 ##12 -37,Este es un artista 02,https://www.instagram.com/dntatuajeria/,310 8843180,123.456.789-H,3,8
+17,Tatuador Nombre 03,Tatuador Apellido 03,,1049667,Colombia,18/04/1910,Cl. 18 ##12 -37,Este es un artista 03,https://www.instagram.com/cry_in_ink_tattoo/,310 8843180,123.456.789-H,3,8
+18,Tatuador Nombre 04,Tatuador Apellido 04,,1049668,Colombia,17/03/1929,Cl. 18 ##12 -37,Este es un artista 04,https://www.instagram.com/zata.6/,310 8843180,123.456.789-H,3,8
+19,Tatuador Nombre 05,Tatuador Apellido 05,,1049669,Colombia,9/12/1914,Cl. 18 ##12 -37,Este es un artista 05,https://www.instagram.com/afterinked/,310 8843180,123.456.789-H,3,8
+20,Tatuador Nombre 06,Tatuador Apellido 06,,1049670,Colombia,9/12/1907,Cl. 18 ##12 -37,Este es un artista 06,https://www.instagram.com/cacattoo/,310 8843180,123.456.789-H,3,8
+21,Tatuador Nombre 07,Tatuador Apellido 07,,1049671,Colombia,8/11/1914,Cl. 18 ##12 -37,Este es un artista 07,https://www.instagram.com/piso_3_xtreme_shop_tunja/,310 8843180,123.456.789-H,3,8
+22,Tatuador Nombre 08,Tatuador Apellido 08,,1049672,Colombia,10/10/1922,Cl. 18 ##12 -37,Este es un artista 08,https://www.instagram.com/santiagosaenzh/,310 8843180,123.456.789-H,3,8
+23,Tatuador Nombre 09,Tatuador Apellido 09,,1049673,Colombia,15/07/1926, CC Boulevard  Av. Olímpica #3 - 76 Local 204,Este es un artista 09,https://www.instagram.com/soulart_tattoo_studio/?utm_medium=copy_link,320 9015810,123.456.789-M,3,13
+24,Tatuador Nombre 10,Tatuador Apellido 10,,1049674,Colombia,21/07/1923,Prívate Studio  Cl. 47A ##6-27,Este es un artista 10,https://www.instagram.com/leontatuador/,321 9002374,123.456.789-A,3,1
+25,Perforador Nombre 01,Perforador Apellido 01,,1049675,Colombia,11/03/1922,Cl. 17 ##13 -42 local 3,Este es un artista 11,https://www.instagram.com/ferchoneva/?hl=es-la,310 2791926,123.456.789-T,4,20
+26,Perforador Nombre 02,Perforador Apellido 02,,1049676,Colombia,10/08/1907,Cl. 17 ##13 -42 local 3,Este es un artista 12,https://www.instagram.com/jumaa_official/,310 2791926,123.456.789-T,4,20
+27,Perforador Nombre 03,Perforador Apellido 03,,1049677,Colombia,5/10/1919,Cl. 17 ##13 -42 local 3,Este es un artista 13,https://www.instagram.com/santamafia_tattoo/,310 2791926,123.456.789-T,4,20
+28,Perforador Nombre 04,Perforador Apellido 04,,1049678,Colombia,2/06/1908,RESTAURATE LA ROMANA D.C  Cra. 9 ##20,Este es un artista 14,https://www.instagram.com/skinink.tat/,316 5152020,123.456.789-C,4,3
+29,Perforador Nombre 05,Perforador Apellido 05,,1049679,Colombia,23/04/1915,Cl. 22 ## 9-44 local 214,Este es un artista 15,https://www.instagram.com/fernandotorres_tattoo/?utm_medium=copy_link,310 4787465,123.456.789-k,4,11
+30,Perforador Nombre 06,Perforador Apellido 06,,1049680,Colombia,10/08/1927, A dos cuadras de la iglesia  Cra. 10 ##28,Este es un artista 16,https://www.instagram.com/donovan_tattoos/,311 2939361,123.456.789-E,4,5
+31,Perforador Nombre 07,Perforador Apellido 07,,1049681,Colombia,20/05/1927,estudio privado,Este es un artista 17,https://www.instagram.com/mauravel1/?utm_medium=copy_link,3022600012,123.456.789-W,4,23
+32,Perforador Nombre 08,Perforador Apellido 08,,1049682,Colombia,5/01/1908,estudio privado,Este es un artista 18,https://www.instagram.com/alex_raven6/?utm_medium=copy_link,3156899355,123.456.789-Y,4,24
+33,Perforador Nombre 09,Perforador Apellido 09,,1049683,Colombia,15/08/1913,estudio privado,Este es un artista 19,https://www.instagram.com/nixon.betancourt/?utm_medium=copy_link,0,123.456.789-Z,4,25
+34,Perforador Nombre 10,Perforador Apellido 10,,1049684,Colombia,17/01/1933, Cl. 39 ##6 - 32,Este es un artista 20,https://www.instagram.com/leonardo.medito/,301 2325570,123.456.789-N,4,14
+35,Perforador Nombre 11,Perforador Apellido 11,,1049685,Colombia,13/06/1913,Carrera 12 14 03 B. Nueva Santa Barbara,Este es un artista 21,https://www.instagram.com/willyzararte/?r=nametag,300 4117121,123.456.789-Q,4,17
+36,Admin Nombre 01,Admin Apellido 01,,1049686,Colombia,19/10/1925,Paseo De La Salamandra,Este es admin 01,,7201234574,,5,18
+37,Admin Nombre 02,Admin Apellido 02,,1049687,Colombia,18/04/1932,Cl. 17 ##13 -42 local 3,Este es admin 02,,7201234575,,5,20
+38,Admin Nombre 03,Admin Apellido 03,,1049688,Colombia,2/10/1911,No presenta,Este es admin 03,,7201234576,,5,22
+39,Admin Nombre 04,Admin Apellido 04,,1049689,Colombia,10/06/1925,estudio privado,Este es admin 04,,7201234577,,5,24
+40,Admin Nombre 05,Admin Apellido 05,,1049690,Colombia,10/03/1922,Prívate Studio  Cl. 47A ##6-27,Este es admin 05,,7201234578,,5,1
+41,Admin Nombre 06,Admin Apellido 06,,1049691,Colombia,2/05/1916,RESTAURATE LA ROMANA D.C  Cra. 9 ##20,Este es admin 06,,7201234579,,5,3
+42,Admin Nombre 07,Admin Apellido 07,,1049692,Colombia,13/04/1915,Cl. 29 ##10a-1,Este es admin 07,,7201234580,,5,4
+43,Dibujante Nombre 01,Dibujante Apellido 01,,1049693,Colombia,15/07/1916,Cra. 22 # 9- 44 Centro Comercial Paseo de la Salamandra,Este es un artista dibujante 01,https://www.instagram.com/explore/,7201234581,,6,2
+44,Dibujante Nombre 02,Dibujante Apellido 02,,1049694,Colombia,21/11/1921, Tv 7 No.44-39  Local 2  Santa Ines,Este es un artista dibujante 02,https://www.instagram.com/explore/,7201234582,,6,6
+45,Dibujante Nombre 03,Dibujante Apellido 03,,1049695,Colombia,14/11/1908,Cl. 18 ##12 -37,Este es un artista dibujante 03,https://www.instagram.com/explore/,7201234583,,6,8
+46,Dibujante Nombre 04,Dibujante Apellido 04,,1049696,Colombia,22/04/1911,Tv. 0 Este ##66a 20,Este es un artista dibujante 04,https://www.instagram.com/explore/,7201234584,,6,10
+47,Dibujante Nombre 05,Dibujante Apellido 05,,1049697,Colombia,18/09/1908,150003,Este es un artista dibujante 05,https://www.instagram.com/explore/,7201234585,,6,12
+48,Dibujante Nombre 06,Dibujante Apellido 06,,1049698,Colombia,22/07/1917, Cl. 39 ##6 - 32,Este es un artista dibujante 06,https://www.instagram.com/explore/,7201234586,,6,14
+49,Dibujante Nombre 07,Dibujante Apellido 07,,1049699,Colombia,6/12/1932,Carrera 10 # 20 - 91 El Virrey Centro Comercial Local 219,Este es un artista dibujante 07,https://www.instagram.com/explore/,7201234587,,6,16

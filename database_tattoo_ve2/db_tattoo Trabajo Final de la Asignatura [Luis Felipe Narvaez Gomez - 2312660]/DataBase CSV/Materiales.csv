@@ -1,0 +1,42 @@
+id_material,nombre,descripcion,FK_tipo_material,FK_proveedor
+1,tinta para tatuaje tipo 1,Enbase de 500ml de tinta tipo 1,1,8
+2,tinta para tatuaje tipo 2,Enbase de 500ml de tinta tipo 2,1,9
+3,tinta para tatuaje tipo 3,Enbase de 500ml de tinta tipo 3,1,10
+4,tinta para tatuaje tipo 4,Enbase de 500ml de tinta tipo 4,1,11
+5,tinta para tatuaje tipo 5,Enbase de 500ml de tinta tipo 5,1,12
+6,tinta para tatuaje tipo 6,Enbase de 500ml de tinta tipo 6,1,13
+7,tinta para tatuaje tipo 7,Enbase de 500ml de tinta tipo 7,1,14
+8,tinta para tatuaje tipo 8,Enbase de 500ml de tinta tipo 8,1,8
+9,tinta para tatuaje tipo 9,Enbase de 500ml de tinta tipo 9,1,9
+10,tinta para tatuaje tipo 10,Enbase de 500ml de tinta tipo 10,1,10
+11,tinta para tatuaje tipo 11,Enbase de 500ml de tinta tipo 11,1,11
+12,tinta para tatuaje tipo 12,Enbase de 500ml de tinta tipo 12,1,12
+13,tinta para tatuaje tipo 13,Enbase de 500ml de tinta tipo 13,1,13
+14,tinta para tatuaje tipo 14,Enbase de 500ml de tinta tipo 14,1,14
+15,tinta para tatuaje tipo 15,Enbase de 500ml de tinta tipo 15,1,8
+16,tinta para tatuaje tipo 16,Enbase de 500ml de tinta tipo 16,1,9
+17,tinta para tatuaje tipo 17,Enbase de 500ml de tinta tipo 17,1,10
+18,marcadores negro,marcador negro borrable  se enciman hojas carbon,2,11
+19,marcador permanente rojo,marcador permanente Sharpie Rojo,2,12
+20,algodón aceptico,elementos de desinfeccion y limpieza,3,13
+21,alcohol aceptico,elementos de desinfeccion y limpieza,4,14
+22,guantes de latex negro,elemento de trabajo medico de tatuaje y piercing,5,8
+23,guantes de nitrilo negro,elemento de trabajo medico de tatuaje y piercing,6,9
+24,toallas,elementos de desinfeccion y limpieza,7,10
+25,papel higienico,elementos de desinfeccion y limpieza,8,11
+26,pinzas perforadoras de piercing,elemento de trabajo medico de tatuaje y piercing,9,12
+27,Maquinda electrica de tatuajes,elemento de trabajo medico de tatuaje y piercing,10,13
+28,agujas para tatuar,elemento de trabajo medico de tatuaje y piercing,11,14
+29,jeringas,elemento de trabajo medico de tatuaje y piercing,12,8
+30,agujas de jeringas,elemento de trabajo medico de tatuaje y piercing,13,9
+31,Autoclave,elementos de desinfeccion y limpieza de elementos de trabajo,14,10
+32,Ungüento ,elementos de desinfeccion y limpieza,15,11
+33,vendaje,elementos de desinfeccion y limpieza,16,12
+34,gasas,elementos de desinfeccion y limpieza,17,13
+35,espuma limpiadora,elementos de desinfeccion y limpieza de elementos de trabajo,18,14
+36,toallas de papel absorvente,elementos de desinfeccion y limpieza,19,8
+37,velas aromatizantes,para la harmonia del cliente y trabajadores,20,9
+38,humificador,para la harmonia del cliente y trabajadores,21,10
+39,camilla de tatuaje,indispensable camilla de color negro  acolchado en cuerina y base en acero inoxidable,22,11
+40,plastico Vinipel Rollo,para vendaje del tattoo,23,12
+41,cremas hidratantes,para venta del cuidado del tattoo,24,13

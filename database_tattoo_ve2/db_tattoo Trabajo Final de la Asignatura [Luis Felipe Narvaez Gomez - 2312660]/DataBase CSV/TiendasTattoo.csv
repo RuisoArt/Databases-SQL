@@ -1,0 +1,26 @@
+id_tienda_tattoo,nombre_tienda,direccion,telefono,nit,departamento,ciudad,FK_horario
+1,Ninja Tattoo Tunja,Prívate Studio  Cl. 47A ##6-27,321 9002374,123.456.789-A,Boyaca,Tunja,1
+2,Monster House Tattoo y Piercing Studio,Cra. 22 # 9- 44 Centro Comercial Paseo de la Salamandra,320 2240569,123.456.789-B,Boyaca,Tunja,2
+3,SKIN INK TATTOO,RESTAURATE LA ROMANA D.C  Cra. 9 ##20,316 5152020,123.456.789-C,Boyaca,Tunja,3
+4,SALOON PRIVE,Cl. 29 ##10a-1,311 5287058,123.456.789-D,Boyaca,Tunja,4
+5,DONOVAN Tattoo Studio, A dos cuadras de la iglesia  Cra. 10 ##28,311 2939361,123.456.789-E,Boyaca,Tunja,5
+6,Dark Side, Tv 7 No.44-39  Local 2  Santa Ines,321 3790956,123.456.789-F,Boyaca,Tunja,6
+7,Tokio Tatto Shop,Cra. 9 ##24-77,314 3788665,123.456.789-G,Boyaca,Tunja,7
+8,El Diamante Negro Tatuajería,Cl. 18 ##12 -37,310 8843180,123.456.789-H,Boyaca,Tunja,8
+9,InkSide Tattoo Studio,las terrazas  Av Universitaria 41a # 1-02 segundo piso  Av Universitaria,301 6920102,123.456.789-I,Boyaca,Tunja,9
+10,LA PIRAÑA TATTOO SHOP,Tv. 0 Este ##66a 20,313 5574233,123.456.789-J,Boyaca,Tunja,10
+11,SORRY MOM TATTOO STUDIO,Cl. 22 ## 9-44 local 214,310 4787465,123.456.789-k,Boyaca,Tunja,11
+12,Supplis tattoo,150003,321 9708574,123.456.789-L,Boyaca,Tunja,12
+13,Soul Art Tattoo Studio, CC Boulevard  Av. Olímpica #3 - 76 Local 204,320 9015810,123.456.789-M,Boyaca,Tunja,13
+14,Ancestral Tattoo Studio, Cl. 39 ##6 - 32,301 2325570,123.456.789-N,Boyaca,Tunja,2
+15,Piel Toxica Pink,Cra. 10 ###22-22 Local 1,310 5810318,123.456.789-O,Boyaca,Tunja,14
+16,Monster House Tatuaje  Piercing & Galeria,Carrera 10 # 20 - 91 El Virrey Centro Comercial Local 219,0,123.456.789-P,Boyaca,Tunja,15
+17,Tinta Viva Tattoo & Body Piercing,Carrera 12 14 03 B. Nueva Santa Barbara,300 4117121,123.456.789-Q,Boyaca,Tunja,2
+18,Tattoo studio SorryMom,Paseo De La Salamandra,0,123.456.789-R,Boyaca,Tunja,17
+19,Tokio Tattoo Premium,Tv. 11 ##2354,0,123.456.789-S,Boyaca,Tunja,18
+20,Dragon's art tattoo,Cl. 17 ##13 -42 local 3,310 2791926,123.456.789-T,Boyaca,Tunja,19
+21,Inkcorp Tatto Estudio,150001,314 4673499,123.456.789-U,Boyaca,Tunja,20
+22,Afrik Tattoo and Gallery Supply,No presenta,0,123.456.789-V,Boyaca,Tunja,21
+23,Maura Velandia,estudio privado,3022600012,123.456.789-W,Boyaca,Tunja,22
+24,Alex Raven,estudio privado,3156899355,123.456.789-Y,Boyaca,Tunja,23
+25,Nixon Betancourt,estudio privado,0,123.456.789-Z,Boyaca,Tunja,1

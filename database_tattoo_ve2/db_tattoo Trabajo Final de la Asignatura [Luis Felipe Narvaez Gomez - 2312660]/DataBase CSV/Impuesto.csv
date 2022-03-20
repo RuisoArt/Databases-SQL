@@ -1,0 +1,23 @@
+id_impuesto,nombre_impuesto,valor_impuesto
+1,Renta y Ganancia Ocasional y Dividendos (Impuesto Renta),0.31
+2,Renta y Ganancia Ocasional y Dividendos (Ganancia Ocacional),0.1
+3,Impuesto al Valor Agregado (IVA)(0),0
+4,Impuesto al Valor Agregado (IVA)(5),0.05
+5,Impuesto al Valor Agregado (IVA)(15),0.15
+6,Impuesto al Valor Agregado (IVA)(19),0.19
+7,Impuesto al consumo (2),0.02
+8,Impuesto al consumo (4),0.04
+9,Impuesto al consumo (8),0.08
+10,Impuesto al consumo (16),0.16
+11,Impuesto a las Transacciones Financieras,0.004
+12,Impuesto de Industria y Comercio (0 2),0.002
+13,Impuesto de Industria y Comercio (1 4),0.014
+14,Impuesto Predial (0 5),0.005
+15,Impuesto Predial (1 6),0.016
+16,arancel precio FOB inferior a 10$us por kilo,0.4
+17,arancel importaciones Aduanas inferior a 20$us por kilo,0.379
+18,arancel adicional Aduanas superior a 3$us por kilo,0.1
+19,arancel adicional Importaciones,0.15
+20,Zonas francas,0.15
+21,Impuesto por feo,0.1
+22,Impuesto por existir,0.1

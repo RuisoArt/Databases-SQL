@@ -1,0 +1,8 @@
+id_precio_producto,descripcion_producto,fecha_precio,precio_tattoo,precio_piercing,FK_impuesto,FK_valor_impuesto,precio_total
+1,el cliente selecciono un tatuaje de catalogo del artista del local,30/11/2021,70,0,22,0,1,77
+2,El cliente trajo un tatuaje de referencia,1/12/2021,50,0,22,0,1,55
+3,el cliente pidio un tatuaje que fue diseñado en el local,2/12/2021,80,0,22,0,1,88
+4,el cliente trajo un tatuaje diseñado por el,3/12/2021,70,0,22,0,1,77
+5,piercing con joya incluida comprada en el local,4/12/2021,0,20,22,0,1,22
+6,piercing sin joya incluida pues el cliente trajo la suya,5/12/2021,0,20,22,0,1,22
+7,cliente decide hacerce un tatuaje y un piercing,6/12/2021,70,20,22,0,1,99

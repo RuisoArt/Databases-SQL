@@ -1,0 +1,21 @@
+id_ticket,medio_pago,fecha_ticket,FK_cliente,FK_detalle_ticket,FK_precio_producto
+1,Efectivo,20/11/2021,1,1,1
+2,PSE,21/11/2021,2,1,6
+3,Nequi,22/11/2021,3,1,2
+4,Paypal,23/11/2021,4,1,5
+5,Bancolombia a la Mano,24/11/2021,5,7,3
+6,Baloto Electronico,25/11/2021,6,8,4
+7,Visa,26/11/2021,7,8,4
+8,MasterCard,27/11/2021,1,1,3
+9,Tpaga,28/11/2021,2,1,5
+10,Movii,29/11/2021,3,1,2
+11,Powwi,30/11/2021,4,1,6
+12,Rappi Pay,1/12/2021,5,7,1
+13,Tuya,2/12/2021,6,8,7
+14,BBVA,3/12/2021,7,8,7
+15,Paga Aquí,4/12/2021,1,1,1
+16,Colpatria,5/12/2021,2,1,6
+17,Daviplata,6/12/2021,3,1,2
+18,Efectivo,7/12/2021,4,1,5
+19,Nequi,8/12/2021,5,8,3
+20,Efectivo,9/12/2021,6,8,4
