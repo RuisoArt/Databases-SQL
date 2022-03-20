@@ -1,0 +1,10 @@
+--Datos del Estudiante:
+
+-- Nombre: Ing.Luis Felipe Narvaez Gomez
+-- Facultad: Ingenieria de Sistemas
+-- Universidad: Santo Tomas seccional Tunja
+-- Materia: Bases de Datos
+-- Semestre: 2021-2
+
+Abrir los diferentes archivos con un editor de texto plano como Bloc de Notas.
+

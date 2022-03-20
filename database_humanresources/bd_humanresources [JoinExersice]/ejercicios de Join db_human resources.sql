@@ -1,0 +1,511 @@
+-- Datos
+-- Nombre: Luis Felipe Narvaez Gomez
+-- Cod: 2312660
+-- Facultad: Ingenieria de Sistemas
+-- Universidad: Santo Tomas seccional Tunja
+-- Materia: Bases de Datos
+-- Semestre: 2021-2
+
+-- ........................................ Ejercicios con sentencias JOIN ........................................
+
+-- ACCEEDER A MARIA DB POR CMD
+
+D:\>cd D:\Software\Xampp MySQL\mysql\bin
+
+D:\Software\Xampp MySQL\mysql\bin>mysql -u root
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 26
+Server version: 10.4.21-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]>
+
+-- Cambiar a la base de datos de nuestro interes
+
+MariaDB [(none)]> USE db_humanresources;
+Database changed
+MariaDB [db_humanresources]>
+
+-- Mostrar todas las tablas
+
+MariaDB [db_humanresources]> SHOW FULL TABLES FROM db_humanresources;
++-----------------------------+------------+
+| Tables_in_db_humanresources | Table_type |
++-----------------------------+------------+
+| countries                   | BASE TABLE |
+| departments                 | BASE TABLE |
+| employees                   | BASE TABLE |
+| job_history                 | BASE TABLE |
+| jobs                        | BASE TABLE |
+| locations                   | BASE TABLE |
+| regions                     | BASE TABLE |
++-----------------------------+------------+
+
+-- Ejercicios
+-- 1. mostrar el nombre del pais con el nombre de la region a la que pertenece
+
+SELECT p.COUNTRY_NAME AS 'PAIS', r.REGION_NAME AS 'REGION'
+FROM countries AS p
+INNER JOIN regions AS r;
+
+-- 2. mostrar las ubicaciones y el nombre del pais a la que pertenece
+
+SELECT l.CITY AS 'Ciudad', c.COUNTRY_NAME AS 'PAIS'
+FROM locations AS l
+LEFT JOIN countries AS c
+ON l.COUNTRY_ID = c.COUNTRY_ID;
+
+MariaDB [db_humanresources]> SELECT l.CITY AS 'Ciudad', c.COUNTRY_NAME AS 'PAIS'
+    -> FROM locations AS l
+    -> LEFT JOIN countries AS c
+    -> ON l.COUNTRY_ID = c.COUNTRY_ID;
++---------------------+--------------------------+
+| Ciudad              | PAIS                     |
++---------------------+--------------------------+
+| Roma                | Italy                    |
+| Venice              | Italy                    |
+| Tokyo               | Japan                    |
+| Hiroshima           | Japan                    |
+| Southlake           | United States of America |
+| South San Francisco | United States of America |
+| South Brunswick     | United States of America |
+| Seattle             | United States of America |
+| Toronto             | Canada                   |
+| Whitehorse          | Canada                   |
+| Beijing             | China                    |
+| Bombay              | India                    |
+| Sydney              | Australia                |
+| Singapore           | Singapore                |
+| London              | United Kingdom           |
+| OX9 9ZB             | NULL                     |
+| Stretford           | United Kingdom           |
+| Munich              | Germany                  |
+| Sao Paulo           | Brazil                   |
+| Geneva              | Switzerland              |
+| Bern                | Switzerland              |
+| Utrecht             | Netherlands              |
+| Mexico City         | NULL                     |
++---------------------+--------------------------+
+
+-- 3. mostrar nombre del departamento, nombre de la ciudad y del estado de los departamentos que están ubicados fuera de Seattle
+
+SELECT d.DEPARTMENT_NAME AS 'Departamento', l.CITY AS 'Ciudad', l.STATE_PROVINCE AS 'Estado'
+FROM departments AS d
+INNER JOIN locations AS l
+ON d.LOCATION_ID = l.LOCATION_ID
+WHERE l.CITY != 'Seattle';
+
+MariaDB [db_humanresources]> SELECT d.DEPARTMENT_NAME AS 'Departamento', l.CITY AS 'Ciudad', l.STATE_PROVINCE AS 'Estado'
+    -> FROM departments AS d
+    -> INNER JOIN locations AS l
+    -> ON d.LOCATION_ID = l.LOCATION_ID
+    -> WHERE l.CITY != 'Seattle';
++------------------+---------------------+------------+
+| Departamento     | Ciudad              | Estado     |
++------------------+---------------------+------------+
+| Marketing        | Toronto             | Ontario    |
+| Human Resources  | London              |            |
+| Shipping         | South San Francisco | California |
+| IT               | Southlake           | Texas      |
+| Public Relations | Munich              | Bavaria    |
+| Sales            | OX9 9ZB             | Oxford     |
++------------------+---------------------+------------+
+
+-- 4. mostrar nombre y apellido del empleado con el  nombre del departamento al que pertenece
+
+SELECT  CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado' , d.DEPARTMENT_NAME AS 'Departamento'
+FROM employees AS e
+INNER JOIN departments AS d
+ON e.DEPARTMENT_ID = d.DEPARTMENT_ID;
+
+MariaDB [db_humanresources]> SELECT  CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado' , d.DEPARTMENT_NAME AS 'Departamento'
+    -> FROM employees AS e
+    -> INNER JOIN departments AS d
+    -> ON e.DEPARTMENT_ID = d.DEPARTMENT_ID;
++-------------------+------------------+
+| Empleado          | Departamento     |
++-------------------+------------------+
+| Steven King       | Executive        |
+| Neena Kochhar     | Executive        |
+| Lex De Haan       | Executive        |
+| Alexander Hunold  | IT               |
+| Bruce Ernst       | IT               |
+| David Austin      | IT               |
+| Valli Pataballa   | IT               |
+| Diana Lorentz     | IT               |
+| Nancy Greenberg   | Finance          |
+| Daniel Faviet     | Finance          |
+| John Chen         | Finance          |
+| Ismael Sciarra    | Finance          |
+| Jose Manuel Urman | Finance          |
+| Luis Popp         | Finance          |
+| Den Raphaely      | Purchasing       |
+| Alexander Khoo    | Purchasing       |
+| Shelli Baida      | Purchasing       |
+| Sigal Tobias      | Purchasing       |
+| Guy Himuro        | Purchasing       |
+| Karen Colmenares  | Purchasing       |
+| Matthew Weiss     | Shipping         |
+| Adam Fripp        | Shipping         |
+| Payam Kaufling    | Shipping         |
+| Shanta Vollman    | Shipping         |
+| Kevin Mourgos     | Shipping         |
+| Julia Nayer       | Shipping         |
+| Irene Mikkilineni | Shipping         |
+| James Landry      | Shipping         |
+| Steven Markle     | Shipping         |
+| Laura Bissot      | Shipping         |
+| Mozhe Atkinson    | Shipping         |
+| James Marlow      | Shipping         |
+| TJ Olson          | Shipping         |
+| Jason Mallin      | Shipping         |
+| Michael Rogers    | Shipping         |
+| Ki Gee            | Shipping         |
+| Hazel Philtanker  | Shipping         |
+| Renske Ladwig     | Shipping         |
+| Stephen Stiles    | Shipping         |
+| John Seo          | Shipping         |
+| Joshua Patel      | Shipping         |
+| Trenna Rajs       | Shipping         |
+| Curtis Davies     | Shipping         |
+| Randall Matos     | Shipping         |
+| Peter Vargas      | Shipping         |
+| John Russell      | Sales            |
+| Karen Partners    | Sales            |
+| Alberto Errazuriz | Sales            |
+| Gerald Cambrault  | Sales            |
+| Eleni Zlotkey     | Sales            |
+| Peter Tucker      | Sales            |
+| David Bernstein   | Sales            |
+| Peter Hall        | Sales            |
+| Christopher Olsen | Sales            |
+| Nanette Cambrault | Sales            |
+| Oliver Tuvault    | Sales            |
+| Janette King      | Sales            |
+| Patrick Sully     | Sales            |
+| Allan McEwen      | Sales            |
+| Lindsey Smith     | Sales            |
+| Louise Doran      | Sales            |
+| Sarath Sewall     | Sales            |
+| Clara Vishney     | Sales            |
+| Danielle Greene   | Sales            |
+| Mattea Marvins    | Sales            |
+| David Lee         | Sales            |
+| Sundar Ande       | Sales            |
+| Amit Banda        | Sales            |
+| Lisa Ozer         | Sales            |
+| Harrison Bloom    | Sales            |
+| Tayler Fox        | Sales            |
+| William Smith     | Sales            |
+| Elizabeth Bates   | Sales            |
+| Sundita Kumar     | Sales            |
+| Ellen Abel        | Sales            |
+| Alyssa Hutton     | Sales            |
+| Jonathon Taylor   | Sales            |
+| Jack Livingston   | Sales            |
+| Charles Johnson   | Sales            |
+| Winston Taylor    | Shipping         |
+| Jean Fleaur       | Shipping         |
+| Martha Sullivan   | Shipping         |
+| Girard Geoni      | Shipping         |
+| Nandita Sarchand  | Shipping         |
+| Alexis Bull       | Shipping         |
+| Julia Dellinger   | Shipping         |
+| Anthony Cabrio    | Shipping         |
+| Kelly Chung       | Shipping         |
+| Jennifer Dilly    | Shipping         |
+| Timothy Gates     | Shipping         |
+| Randall Perkins   | Shipping         |
+| Sarah Bell        | Shipping         |
+| Britney Everett   | Shipping         |
+| Samuel McCain     | Shipping         |
+| Vance Jones       | Shipping         |
+| Alana Walsh       | Shipping         |
+| Kevin Feeney      | Shipping         |
+| Donald OConnell   | Shipping         |
+| Douglas Grant     | Shipping         |
+| Jennifer Whalen   | Administration   |
+| Michael Hartstein | Marketing        |
+| Pat Fay           | Marketing        |
+| Susan Mavris      | Human Resources  |
+| Hermann Baer      | Public Relations |
+| Shelley Higgins   | Accounting       |
+| William Gietz     | Accounting       |
++-------------------+------------------+
+
+-- 5. mostrar nombre y apellido del empleado con el titulo del cargo que ocupa
+
+SELECT CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado', j.JOB_TITLE AS 'Trabajo'
+FROM employees AS e
+LEFT JOIN jobs AS j
+ON e.JOB_ID = j.JOB_ID;
+
+MariaDB [db_humanresources]> SELECT CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado', j.JOB_TITLE AS 'Trabajo'
+    -> FROM employees AS e
+    -> LEFT JOIN jobs AS j
+    -> ON e.JOB_ID = j.JOB_ID;
++-------------------+---------------------------------+
+| Empleado          | Trabajo                         |
++-------------------+---------------------------------+
+| Steven King       | President                       |
+| Neena Kochhar     | Administration Vice President   |
+| Lex De Haan       | Administration Vice President   |
+| Alexander Hunold  | Programmer                      |
+| Bruce Ernst       | Programmer                      |
+| David Austin      | Programmer                      |
+| Valli Pataballa   | Programmer                      |
+| Diana Lorentz     | Programmer                      |
+| Nancy Greenberg   | Finance Manager                 |
+| Daniel Faviet     | Accountant                      |
+| John Chen         | Accountant                      |
+| Ismael Sciarra    | Accountant                      |
+| Jose Manuel Urman | Accountant                      |
+| Luis Popp         | Accountant                      |
+| Den Raphaely      | Purchasing Manager              |
+| Alexander Khoo    | Purchasing Clerk                |
+| Shelli Baida      | Purchasing Clerk                |
+| Sigal Tobias      | Purchasing Clerk                |
+| Guy Himuro        | Purchasing Clerk                |
+| Karen Colmenares  | Purchasing Clerk                |
+| Matthew Weiss     | Stock Manager                   |
+| Adam Fripp        | Stock Manager                   |
+| Payam Kaufling    | Stock Manager                   |
+| Shanta Vollman    | Stock Manager                   |
+| Kevin Mourgos     | Stock Manager                   |
+| Julia Nayer       | Stock Clerk                     |
+| Irene Mikkilineni | Stock Clerk                     |
+| James Landry      | Stock Clerk                     |
+| Steven Markle     | Stock Clerk                     |
+| Laura Bissot      | Stock Clerk                     |
+| Mozhe Atkinson    | Stock Clerk                     |
+| James Marlow      | Stock Clerk                     |
+| TJ Olson          | Stock Clerk                     |
+| Jason Mallin      | Stock Clerk                     |
+| Michael Rogers    | Stock Clerk                     |
+| Ki Gee            | Stock Clerk                     |
+| Hazel Philtanker  | Stock Clerk                     |
+| Renske Ladwig     | Stock Clerk                     |
+| Stephen Stiles    | Stock Clerk                     |
+| John Seo          | Stock Clerk                     |
+| Joshua Patel      | Stock Clerk                     |
+| Trenna Rajs       | Stock Clerk                     |
+| Curtis Davies     | Stock Clerk                     |
+| Randall Matos     | Stock Clerk                     |
+| Peter Vargas      | Stock Clerk                     |
+| John Russell      | Sales Manager                   |
+| Karen Partners    | Sales Manager                   |
+| Alberto Errazuriz | Sales Manager                   |
+| Gerald Cambrault  | Sales Manager                   |
+| Eleni Zlotkey     | Sales Manager                   |
+| Peter Tucker      | Sales Representative            |
+| David Bernstein   | Sales Representative            |
+| Peter Hall        | Sales Representative            |
+| Christopher Olsen | Sales Representative            |
+| Nanette Cambrault | Sales Representative            |
+| Oliver Tuvault    | Sales Representative            |
+| Janette King      | Sales Representative            |
+| Patrick Sully     | Sales Representative            |
+| Allan McEwen      | Sales Representative            |
+| Lindsey Smith     | Sales Representative            |
+| Louise Doran      | Sales Representative            |
+| Sarath Sewall     | Sales Representative            |
+| Clara Vishney     | Sales Representative            |
+| Danielle Greene   | Sales Representative            |
+| Mattea Marvins    | Sales Representative            |
+| David Lee         | Sales Representative            |
+| Sundar Ande       | Sales Representative            |
+| Amit Banda        | Sales Representative            |
+| Lisa Ozer         | Sales Representative            |
+| Harrison Bloom    | Sales Representative            |
+| Tayler Fox        | Sales Representative            |
+| William Smith     | Sales Representative            |
+| Elizabeth Bates   | Sales Representative            |
+| Sundita Kumar     | Sales Representative            |
+| Ellen Abel        | Sales Representative            |
+| Alyssa Hutton     | Sales Representative            |
+| Jonathon Taylor   | Sales Representative            |
+| Jack Livingston   | Sales Representative            |
+| Kimberely Grant   | Sales Representative            |
+| Charles Johnson   | Sales Representative            |
+| Winston Taylor    | Shipping Clerk                  |
+| Jean Fleaur       | Shipping Clerk                  |
+| Martha Sullivan   | Shipping Clerk                  |
+| Girard Geoni      | Shipping Clerk                  |
+| Nandita Sarchand  | Shipping Clerk                  |
+| Alexis Bull       | Shipping Clerk                  |
+| Julia Dellinger   | Shipping Clerk                  |
+| Anthony Cabrio    | Shipping Clerk                  |
+| Kelly Chung       | Shipping Clerk                  |
+| Jennifer Dilly    | Shipping Clerk                  |
+| Timothy Gates     | Shipping Clerk                  |
+| Randall Perkins   | Shipping Clerk                  |
+| Sarah Bell        | Shipping Clerk                  |
+| Britney Everett   | Shipping Clerk                  |
+| Samuel McCain     | Shipping Clerk                  |
+| Vance Jones       | Shipping Clerk                  |
+| Alana Walsh       | Shipping Clerk                  |
+| Kevin Feeney      | Shipping Clerk                  |
+| Donald OConnell   | Shipping Clerk                  |
+| Douglas Grant     | Shipping Clerk                  |
+| Jennifer Whalen   | Administration Assistant        |
+| Michael Hartstein | Marketing Manager               |
+| Pat Fay           | Marketing Representative        |
+| Susan Mavris      | Human Resources Representative  |
+| Hermann Baer      | Public Relations Representative |
+| Shelley Higgins   | Accounting Manager              |
+| William Gietz     | Public Accountant               |
++-------------------+---------------------------------+
+
+-- 6. mostrar nombre y apellido del empleado con la historia de cargos que ha tenido
+
+SELECT CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado', j.JOB_TITLE AS 'Trabajo'
+FROM employees AS e
+INNER JOIN job_history AS jh
+ON e.EMPLOYEE_ID = jh.EMPLOYEE_ID
+INNER JOIN jobs AS j
+ON e.JOB_ID = j.JOB_ID
+ORDER BY CONCAT(e.FIRST_NAME," ", e.LAST_NAME) ASC;
+
+MariaDB [db_humanresources]> SELECT CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado', j.JOB_TITLE AS 'Trabajo'
+    -> FROM employees AS e
+    -> INNER JOIN job_history AS jh
+    -> ON e.EMPLOYEE_ID = jh.EMPLOYEE_ID
+    -> INNER JOIN jobs AS j
+    -> ON e.JOB_ID = j.JOB_ID
+    -> ORDER BY CONCAT(e.FIRST_NAME," ", e.LAST_NAME) ASC;
++-------------------+-------------------------------+
+| Empleado          | Trabajo                       |
++-------------------+-------------------------------+
+| Den Raphaely      | Purchasing Manager            |
+| Jennifer Whalen   | Administration Assistant      |
+| Jennifer Whalen   | Administration Assistant      |
+| Jonathon Taylor   | Sales Representative          |
+| Jonathon Taylor   | Sales Representative          |
+| Lex De Haan       | Administration Vice President |
+| Michael Hartstein | Marketing Manager             |
+| Neena Kochhar     | Administration Vice President |
+| Neena Kochhar     | Administration Vice President |
+| Payam Kaufling    | Stock Manager                 |
++-------------------+-------------------------------+
+
+-- 7. mostrar los departamentos con el nombre y apellido del jefe
+
+--Quiero ver todos los departamentos, asi no tengan empleados
+
+SELECT d.DEPARTMENT_NAME AS 'Departamento', CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado'
+FROM departments AS d
+LEFT JOIN employees AS e
+ON d.MANAGER_ID = e.EMPLOYEE_ID;
+
+MariaDB [db_humanresources]> SELECT d.DEPARTMENT_NAME AS 'Departamento', CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Empleado'
+    -> FROM departments AS d
+    -> LEFT JOIN employees AS e
+    -> ON d.MANAGER_ID = e.EMPLOYEE_ID;
++----------------------+-------------------+
+| Departamento         | Empleado          |
++----------------------+-------------------+
+| Administration       | Jennifer Whalen   |
+| Marketing            | Michael Hartstein |
+| Purchasing           | Den Raphaely      |
+| Human Resources      | Susan Mavris      |
+| Shipping             | Adam Fripp        |
+| IT                   | Alexander Hunold  |
+| Public Relations     | Hermann Baer      |
+| Sales                | John Russell      |
+| Executive            | Steven King       |
+| Finance              | Nancy Greenberg   |
+| Accounting           | Shelley Higgins   |
+| Treasury             | NULL              |
+| Corporate Tax        | NULL              |
+| Control And Credit   | NULL              |
+| Shareholder Services | NULL              |
+| Benefits             | NULL              |
+| Manufacturing        | NULL              |
+| Construction         | NULL              |
+| Contracting          | NULL              |
+| Operations           | NULL              |
+| IT Support           | NULL              |
+| NOC                  | NULL              |
+| IT Helpdesk          | NULL              |
+| Government Sales     | NULL              |
+| Retail Sales         | NULL              |
+| Recruiting           | NULL              |
+| Payroll              | NULL              |
++----------------------+-------------------+
+
+-- 8. mostrar la ciudad de la ubicacion, con el nombre de los departamentos y el nombre del jefe de cada departamento
+
+SELECT d.DEPARTMENT_NAME AS 'Departamento', 
+CONCAT(e.FIRST_NAME," ", e.LAST_NAME) AS 'Jefe de Proyecto', l.CITY AS 'Ciudad'
+FROM departments AS d
+INNER JOIN employees AS e
+ON d.MANAGER_ID = e.EMPLOYEE_ID;
+INNER JOIN locations AS l
+ON l.LOCATION_ID = d.LOCATION_ID;
+
+SELECT employees.FIRST_NAME, employees.LAST_NAME, departments.DEPARTMENT_NAME, locations.CITY 
+FROM employees, departments,locations 
+WHERE departments.MANAGER_ID = employees.EMPLOYEE_ID AND locations.LOCATION_ID = departments.LOCATION_ID
+
+
+-- 9. mostrar nombre y apellido del empleado y el numero de cargos que ha tenido
+
+SELECT employees.FIRST_NAME, employees.LAST_NAME, COUNT(job_history.JOB_ID)
+FROM employees, job_history
+WHERE job_history.EMPLOYEE_ID = employees.EMPLOYEE_ID 
+GROUP BY employees.FIRST_NAME, employees.LAST_NAME 
+
+-- 10. mostrar las regiones con el numero de paises que tiene cada una
+
+SELECT regions.REGION_NAME, COUNT(countries.COUNTRY_ID) FROM regions, countries WHERE regions.REGION_ID = countries.REGION_ID GROUP BY regions.REGION_NAME;
+
+-- 11. mostrar los paises con el numero de ubicaciones que tiene cada uno filtrando los paises que tengan 2 o mas ubicaciones
+
+SELECT countries.COUNTRY_NAME, COUNT(locations.LOCATION_ID) FROM countries INNER JOIN locations ON countries.COUNTRY_ID = locations.COUNTRY_ID GROUP BY countries.COUNTRY_ID HAVING COUNT(locations.LOCATION_ID) >= 2;
+
+-- 12. mostrar nombre y apellido del empleado, nombre del cargo y nombre del departamento al que pertenece
+
+SELECT employees.FIRST_NAME, employees.LAST_NAME, jobs.JOB_TITLE, departments.DEPARTMENT_NAME FROM employees INNER JOIN jobs ON employees.JOB_ID = jobs.JOB_ID INNER JOIN departments ON employees.DEPARTMENT_ID = departments.DEPARTMENT_ID;
+
+-- 13. mostrar nombre y apellido del empleado, con el nombre y apellido del jefe, usar alias para diferenciarlos
+
+SELECT concat(empleado.FIRST_NAME, ' ', empleado.LAST_NAME) AS empleado, concat(jefe.FIRST_NAME,' ', jefe.LAST_NAME) AS jefe 
+FROM employees empleado, employees jefe 
+WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID;
+
+
+-- 14. quien es el jefe de Chen
+
+SELECT concat(empleado.FIRST_NAME, ' ', empleado.LAST_NAME) AS empleado, concat(jefe.FIRST_NAME,' ', jefe.LAST_NAME) AS jefe 
+FROM employees empleado, employees jefe 
+WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID AND empleado.LAST_NAME = 'Chen';
+
+
+-- 15. quien es empleado de Hunold
+
+SELECT concat(empleado.FIRST_NAME, ' ', empleado.LAST_NAME) AS empleado, concat(jefe.FIRST_NAME,' ', jefe.LAST_NAME) AS jefe 
+FROM employees empleado, employees jefe 
+WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID AND jefe.LAST_NAME = 'Hunold';
+
+
+-- 16. cuantos empleados tiene cada jefe
+
+SELECT concat(jefe.FIRST_NAME,' ', jefe.LAST_NAME) AS jefe, COUNT(empleado.LAST_NAME) AS numero_empleados 
+FROM employees empleado, employees jefe 
+WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID GROUP BY jefe;
+
+
+-- 17 mostrar los jefes que tengan mas de tres empleados
+
+SELECT concat(jefe.FIRST_NAME,' ', jefe.LAST_NAME) AS jefe, COUNT(empleado.LAST_NAME) AS numero_empleados 
+FROM employees empleado, employees jefe 
+WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID GROUP BY jefe HAVING COUNT(empleado.LAST_NAME) > 3;
+
+-- 18 mostrar los jefes que tengan menos de tres empleados
+
+SELECT concat(jefe.FIRST_NAME,' ', jefe.LAST_NAME) AS jefe, COUNT(empleado.LAST_NAME) AS numero_empleados 
+FROM employees empleado, employees jefe 
+WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID GROUP BY jefe HAVING COUNT(empleado.LAST_NAME) < 3;
