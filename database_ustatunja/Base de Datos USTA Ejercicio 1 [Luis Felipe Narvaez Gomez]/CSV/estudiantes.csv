@@ -1,0 +1,22 @@
+idEstudiante,nombreEstudiante,semestre,idAsignatura,nombreAsignatura,idPrograma,idSeccional
+123456,Paquito Fernandez,Segundo,15731,Microbiología,10598,13
+123456,Paquito Fernandez,Segundo,15732,Refracción Objetiva,10598,13
+123456,Paquito Fernandez,Segundo,15733,Óptica Geométrica,10598,13
+123456,Paquito Fernandez,Segundo,15734,Antropología,10598,13
+123456,Paquito Fernandez,Segundo,15735,Cátedra de Profundización Profesional I: Lenguaje Gestual,10598,13
+123456,Paquito Fernandez,Segundo,15736,Cátedra de Profundización Profesional I: Primeros Auxilios,10598,13
+123456,Paquito Fernandez,Segundo,15737,Cátedra Opcional Institucional I,10598,13
+123456,Paquito Fernandez,Segundo,15738,Lengua Extranjera II,10598,13
+654321,Fernanda Jimenez,Quinto,15646,Campañas Promocionales,10545,12
+654321,Fernanda Jimenez,Quinto,15647,Ecodiseño,10545,12
+654321,Fernanda Jimenez,Quinto,15648,Teoria del Diseño,10545,12
+654321,Fernanda Jimenez,Quinto,15649,Fundamentos de Administracion,10545,12
+654321,Fernanda Jimenez,Quinto,15650,Investigacion II,10545,12
+654321,Fernanda Jimenez,Quinto,15651,Filosofia politica,10545,12
+654321,Fernanda Jimenez,Quinto,15652,Ingles IV,10545,12
+987654,Yeimy Dayana,Septimo,15560,Instrumentacion Industrial,10510,11
+987654,Yeimy Dayana,Septimo,15561,Electronica de Potencia,10510,11
+987654,Yeimy Dayana,Septimo,15562,Control analogico,10510,11
+987654,Yeimy Dayana,Septimo,15563,Comunicaciones inalambricas,10510,11
+987654,Yeimy Dayana,Septimo,15564,Optativa Administrativa I,10510,11
+987654,Yeimy Dayana,Septimo,15565,Cultura Teologica,10510,11

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="77 0 1863 971" width="1786px" height="971px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="1388" y1="774" x2="1378" y2="774" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1339" y1="187" x2="1329" y2="187" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1378" y1="774" x2="1339" y2="187" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="1380.5" y1="774" x2="1384.0355339059" y2="777.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1380.5" y1="774" x2="1384.0355339059" y2="770.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1334" y1="187" x2="1337.5355339059" y2="190.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1334" y1="187" x2="1337.5355339059" y2="183.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="1388" y1="754" x2="1378" y2="754" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="302" y1="195" x2="292" y2="195" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="1378" y1="754" x2="302" y2="195" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="1380.5" y1="754" x2="1384.0355339059" y2="757.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="1380.5" y1="754" x2="1384.0355339059" y2="750.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="198.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="191.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="625" y1="191" x2="615" y2="191" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="302" y1="195" x2="292" y2="195" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="615" y1="191" x2="302" y2="195" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="617.5" y1="191" x2="621.03553390593" y2="194.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="617.5" y1="191" x2="621.03553390593" y2="187.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="198.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="191.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1626" y1="886" x2="1616" y2="886" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1589" y1="694" x2="1579" y2="694" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1616" y1="886" x2="1589" y2="694" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1618.5" y1="886" x2="1622.0355339059" y2="889.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1618.5" y1="886" x2="1622.0355339059" y2="882.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1584" y1="694" x2="1587.5355339059" y2="697.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1584" y1="694" x2="1587.5355339059" y2="690.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1626" y1="926" x2="1616" y2="926" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1339" y1="187" x2="1329" y2="187" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1616" y1="926" x2="1339" y2="187" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1618.5" y1="926" x2="1622.0355339059" y2="929.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1618.5" y1="926" x2="1622.0355339059" y2="922.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1334" y1="187" x2="1337.5355339059" y2="190.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1334" y1="187" x2="1337.5355339059" y2="183.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1626" y1="946" x2="1616" y2="946" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="302" y1="195" x2="292" y2="195" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="1616" y1="946" x2="302" y2="195" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="1618.5" y1="946" x2="1622.0355339059" y2="949.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="1618.5" y1="946" x2="1622.0355339059" y2="942.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="198.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="191.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="877" y1="394" x2="867" y2="394" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="840" y1="91" x2="830" y2="91" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="867" y1="394" x2="840" y2="91" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="869.5" y1="394" x2="873.03553390593" y2="397.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="869.5" y1="394" x2="873.03553390593" y2="390.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="835" y1="91" x2="838.53553390593" y2="94.535533905933" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="835" y1="91" x2="838.53553390593" y2="87.464466094067" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="877" y1="374" x2="867" y2="374" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="302" y1="195" x2="292" y2="195" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="867" y1="374" x2="302" y2="195" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="869.5" y1="374" x2="873.03553390593" y2="377.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="869.5" y1="374" x2="873.03553390593" y2="370.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="198.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="191.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="1386" y1="600" x2="1376" y2="600" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1339" y1="187" x2="1329" y2="187" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1376" y1="600" x2="1339" y2="187" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="1378.5" y1="600" x2="1382.0355339059" y2="603.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1378.5" y1="600" x2="1382.0355339059" y2="596.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1334" y1="187" x2="1337.5355339059" y2="190.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1334" y1="187" x2="1337.5355339059" y2="183.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="1386" y1="620" x2="1376" y2="620" style="stroke:#333;stroke-width:1;"/>
+   <line x1="302" y1="195" x2="292" y2="195" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1376" y1="620" x2="302" y2="195" style="stroke:#333;stroke-width:1;"/>
+   <line x1="1378.5" y1="620" x2="1382.0355339059" y2="623.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1378.5" y1="620" x2="1382.0355339059" y2="616.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="198.53553390593" style="stroke:#333;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="191.46446609407" style="stroke:#333;stroke-width:2;"/>
+   <line x1="1117" y1="267" x2="1107" y2="267" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="840" y1="91" x2="830" y2="91" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="1107" y1="267" x2="840" y2="91" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="1109.5" y1="267" x2="1113.0355339059" y2="270.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="1109.5" y1="267" x2="1113.0355339059" y2="263.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="835" y1="91" x2="838.53553390593" y2="94.535533905933" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="835" y1="91" x2="838.53553390593" y2="87.464466094067" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="1117" y1="247" x2="1107" y2="247" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="302" y1="195" x2="292" y2="195" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="1107" y1="247" x2="302" y2="195" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="1109.5" y1="247" x2="1113.0355339059" y2="250.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="1109.5" y1="247" x2="1113.0355339059" y2="243.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="198.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="191.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="383" y1="125" x2="373" y2="125" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="302" y1="195" x2="292" y2="195" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="373" y1="125" x2="302" y2="195" style="stroke:#cb0;stroke-width:1;"/>
+   <line x1="375.5" y1="125" x2="379.03553390593" y2="128.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="375.5" y1="125" x2="379.03553390593" y2="121.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="198.53553390593" style="stroke:#cb0;stroke-width:2;"/>
+   <line x1="297" y1="195" x2="300.53553390593" y2="191.46446609407" style="stroke:#cb0;stroke-width:2;"/>
+   <rect width="191" height="20" x="1388" y="664" style="fill:#007;stroke:black;"/>
+   <text width="191" height="20" x="1393" y="678" style="fill:#fff;" font-family="Arial" font-size="16px"> asignaturas</text>
+   <rect width="191" height="20" x="1388" y="684" style="fill:#aea;stroke:black;"/>
+   <text width="191" height="20" x="1393" y="698" style="fill:black;" font-family="Arial" font-size="16px">idAsignatura</text>
+   <rect width="191" height="20" x="1388" y="704" style="fill:none;stroke:black;"/>
+   <text width="191" height="20" x="1393" y="718" style="fill:black;" font-family="Arial" font-size="16px">nombreAsignatura</text>
+   <rect width="191" height="20" x="1388" y="724" style="fill:none;stroke:black;"/>
+   <text width="191" height="20" x="1393" y="738" style="fill:black;" font-family="Arial" font-size="16px">semestre</text>
+   <rect width="191" height="20" x="1388" y="744" style="fill:none;stroke:black;"/>
+   <text width="191" height="20" x="1393" y="758" style="fill:black;" font-family="Arial" font-size="16px">idSeccional_forean2asign</text>
+   <rect width="191" height="20" x="1388" y="764" style="fill:none;stroke:black;"/>
+   <text width="191" height="20" x="1393" y="778" style="fill:black;" font-family="Arial" font-size="16px">idPrograma_forean2asign</text>
+   <rect width="205" height="20" x="625" y="61" style="fill:#007;stroke:black;"/>
+   <text width="205" height="20" x="630" y="75" style="fill:#fff;" font-family="Arial" font-size="16px"> divisiones</text>
+   <rect width="205" height="20" x="625" y="81" style="fill:#aea;stroke:black;"/>
+   <text width="205" height="20" x="630" y="95" style="fill:black;" font-family="Arial" font-size="16px">idDivision</text>
+   <rect width="205" height="20" x="625" y="101" style="fill:none;stroke:black;"/>
+   <text width="205" height="20" x="630" y="115" style="fill:black;" font-family="Arial" font-size="16px">nombreDivision</text>
+   <rect width="205" height="20" x="625" y="121" style="fill:none;stroke:black;"/>
+   <text width="205" height="20" x="630" y="135" style="fill:black;" font-family="Arial" font-size="16px">numeroFacultades</text>
+   <rect width="205" height="20" x="625" y="141" style="fill:none;stroke:black;"/>
+   <text width="205" height="20" x="630" y="155" style="fill:black;" font-family="Arial" font-size="16px">decanoDivision</text>
+   <rect width="205" height="20" x="625" y="161" style="fill:none;stroke:black;"/>
+   <text width="205" height="20" x="630" y="175" style="fill:black;" font-family="Arial" font-size="16px">secretarioDivision</text>
+   <rect width="205" height="20" x="625" y="181" style="fill:none;stroke:black;"/>
+   <text width="205" height="20" x="630" y="195" style="fill:black;" font-family="Arial" font-size="16px">idSeccional_forean2division</text>
+   <rect width="222" height="20" x="1626" y="796" style="fill:#007;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="810" style="fill:#fff;" font-family="Arial" font-size="16px"> estudiantes</text>
+   <rect width="222" height="20" x="1626" y="816" style="fill:#aea;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="830" style="fill:black;" font-family="Arial" font-size="16px">idEstudiante</text>
+   <rect width="222" height="20" x="1626" y="836" style="fill:none;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="850" style="fill:black;" font-family="Arial" font-size="16px">nombreEstudiante</text>
+   <rect width="222" height="20" x="1626" y="856" style="fill:none;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="870" style="fill:black;" font-family="Arial" font-size="16px">semestre</text>
+   <rect width="222" height="20" x="1626" y="876" style="fill:none;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="890" style="fill:black;" font-family="Arial" font-size="16px">idAsignatura_forean2est</text>
+   <rect width="222" height="20" x="1626" y="896" style="fill:none;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="910" style="fill:black;" font-family="Arial" font-size="16px">nombreAsignatura_forean2est</text>
+   <rect width="222" height="20" x="1626" y="916" style="fill:none;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="930" style="fill:black;" font-family="Arial" font-size="16px">idPrograma_forean2est</text>
+   <rect width="222" height="20" x="1626" y="936" style="fill:none;stroke:black;"/>
+   <text width="222" height="20" x="1631" y="950" style="fill:black;" font-family="Arial" font-size="16px">idSeccional_forean2est</text>
+   <rect width="182" height="20" x="877" y="264" style="fill:#007;stroke:black;"/>
+   <text width="182" height="20" x="882" y="278" style="fill:#fff;" font-family="Arial" font-size="16px"> facultades</text>
+   <rect width="182" height="20" x="877" y="284" style="fill:#aea;stroke:black;"/>
+   <text width="182" height="20" x="882" y="298" style="fill:black;" font-family="Arial" font-size="16px">idFacultad</text>
+   <rect width="182" height="20" x="877" y="304" style="fill:none;stroke:black;"/>
+   <text width="182" height="20" x="882" y="318" style="fill:black;" font-family="Arial" font-size="16px">nombreFacultad</text>
+   <rect width="182" height="20" x="877" y="324" style="fill:none;stroke:black;"/>
+   <text width="182" height="20" x="882" y="338" style="fill:black;" font-family="Arial" font-size="16px">decanoFacultad</text>
+   <rect width="182" height="20" x="877" y="344" style="fill:none;stroke:black;"/>
+   <text width="182" height="20" x="882" y="358" style="fill:black;" font-family="Arial" font-size="16px">secretarioFacultad</text>
+   <rect width="182" height="20" x="877" y="364" style="fill:none;stroke:black;"/>
+   <text width="182" height="20" x="882" y="378" style="fill:black;" font-family="Arial" font-size="16px">idSeccional_forean2facu</text>
+   <rect width="182" height="20" x="877" y="384" style="fill:none;stroke:black;"/>
+   <text width="182" height="20" x="882" y="398" style="fill:black;" font-family="Arial" font-size="16px">idDivision_forean2facu</text>
+   <rect width="210" height="20" x="1386" y="450" style="fill:#007;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="464" style="fill:#fff;" font-family="Arial" font-size="16px"> pensum</text>
+   <rect width="210" height="20" x="1386" y="470" style="fill:#aea;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="484" style="fill:black;" font-family="Arial" font-size="16px">idPensum</text>
+   <rect width="210" height="20" x="1386" y="490" style="fill:none;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="504" style="fill:black;" font-family="Arial" font-size="16px">nombrePensum</text>
+   <rect width="210" height="20" x="1386" y="510" style="fill:none;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="524" style="fill:black;" font-family="Arial" font-size="16px">creditos</text>
+   <rect width="210" height="20" x="1386" y="530" style="fill:none;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="544" style="fill:black;" font-family="Arial" font-size="16px">duracion</text>
+   <rect width="210" height="20" x="1386" y="550" style="fill:none;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="564" style="fill:black;" font-family="Arial" font-size="16px">fechaInicio</text>
+   <rect width="210" height="20" x="1386" y="570" style="fill:none;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="584" style="fill:black;" font-family="Arial" font-size="16px">fechaFinalizacion</text>
+   <rect width="210" height="20" x="1386" y="590" style="fill:none;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="604" style="fill:black;" font-family="Arial" font-size="16px">idPrograma_forean2pensum</text>
+   <rect width="210" height="20" x="1386" y="610" style="fill:none;stroke:black;"/>
+   <text width="210" height="20" x="1391" y="624" style="fill:black;" font-family="Arial" font-size="16px">idSeccional_forean2pensum</text>
+   <rect width="212" height="20" x="1117" y="157" style="fill:#007;stroke:black;"/>
+   <text width="212" height="20" x="1122" y="171" style="fill:#fff;" font-family="Arial" font-size="16px"> programas</text>
+   <rect width="212" height="20" x="1117" y="177" style="fill:#aea;stroke:black;"/>
+   <text width="212" height="20" x="1122" y="191" style="fill:black;" font-family="Arial" font-size="16px">idPrograma</text>
+   <rect width="212" height="20" x="1117" y="197" style="fill:none;stroke:black;"/>
+   <text width="212" height="20" x="1122" y="211" style="fill:black;" font-family="Arial" font-size="16px">nombrePrograma</text>
+   <rect width="212" height="20" x="1117" y="217" style="fill:none;stroke:black;"/>
+   <text width="212" height="20" x="1122" y="231" style="fill:black;" font-family="Arial" font-size="16px">modalidad</text>
+   <rect width="212" height="20" x="1117" y="237" style="fill:none;stroke:black;"/>
+   <text width="212" height="20" x="1122" y="251" style="fill:black;" font-family="Arial" font-size="16px">idSeccional_forean2program</text>
+   <rect width="212" height="20" x="1117" y="257" style="fill:none;stroke:black;"/>
+   <text width="212" height="20" x="1122" y="271" style="fill:black;" font-family="Arial" font-size="16px">idDivision_forean2program</text>
+   <rect width="200" height="20" x="92" y="165" style="fill:#007;stroke:black;"/>
+   <text width="200" height="20" x="97" y="179" style="fill:#fff;" font-family="Arial" font-size="16px"> seccionales</text>
+   <rect width="200" height="20" x="92" y="185" style="fill:#aea;stroke:black;"/>
+   <text width="200" height="20" x="97" y="199" style="fill:black;" font-family="Arial" font-size="16px">idSeccional</text>
+   <rect width="200" height="20" x="92" y="205" style="fill:none;stroke:black;"/>
+   <text width="200" height="20" x="97" y="219" style="fill:black;" font-family="Arial" font-size="16px">nombreSeccional</text>
+   <rect width="200" height="20" x="92" y="225" style="fill:none;stroke:black;"/>
+   <text width="200" height="20" x="97" y="239" style="fill:black;" font-family="Arial" font-size="16px">direccionSeccional</text>
+   <rect width="200" height="20" x="92" y="245" style="fill:none;stroke:black;"/>
+   <text width="200" height="20" x="97" y="259" style="fill:black;" font-family="Arial" font-size="16px">ciudadSeccional</text>
+   <rect width="200" height="20" x="92" y="265" style="fill:none;stroke:black;"/>
+   <text width="200" height="20" x="97" y="279" style="fill:black;" font-family="Arial" font-size="16px">departamentoDeSeccional</text>
+   <rect width="200" height="20" x="92" y="285" style="fill:none;stroke:black;"/>
+   <text width="200" height="20" x="97" y="299" style="fill:black;" font-family="Arial" font-size="16px">linkSeccional</text>
+   <rect width="200" height="20" x="92" y="305" style="fill:none;stroke:black;"/>
+   <text width="200" height="20" x="97" y="319" style="fill:black;" font-family="Arial" font-size="16px">rectorSeccional</text>
+   <rect width="200" height="20" x="92" y="325" style="fill:none;stroke:black;"/>
+   <text width="200" height="20" x="97" y="339" style="fill:black;" font-family="Arial" font-size="16px">fechaInicioSeccional</text>
+   <rect width="186" height="20" x="383" y="15" style="fill:#007;stroke:black;"/>
+   <text width="186" height="20" x="388" y="29" style="fill:#fff;" font-family="Arial" font-size="16px"> sedes</text>
+   <rect width="186" height="20" x="383" y="35" style="fill:#aea;stroke:black;"/>
+   <text width="186" height="20" x="388" y="49" style="fill:black;" font-family="Arial" font-size="16px">idSede</text>
+   <rect width="186" height="20" x="383" y="55" style="fill:none;stroke:black;"/>
+   <text width="186" height="20" x="388" y="69" style="fill:black;" font-family="Arial" font-size="16px">nombreSede</text>
+   <rect width="186" height="20" x="383" y="75" style="fill:none;stroke:black;"/>
+   <text width="186" height="20" x="388" y="89" style="fill:black;" font-family="Arial" font-size="16px">ciudad</text>
+   <rect width="186" height="20" x="383" y="95" style="fill:none;stroke:black;"/>
+   <text width="186" height="20" x="388" y="109" style="fill:black;" font-family="Arial" font-size="16px">direccion</text>
+   <rect width="186" height="20" x="383" y="115" style="fill:none;stroke:black;"/>
+   <text width="186" height="20" x="388" y="129" style="fill:black;" font-family="Arial" font-size="16px">idSeccional_forean2sede</text>
+</svg>

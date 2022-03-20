@@ -1,0 +1,66 @@
+LOAD DATA INFILE 'C:/temporal_usta/seccionales.csv'
+INTO TABLE seccionales
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idSeccional,nombreSeccional,direccionSeccional,ciudadSeccional,departamentoDeSeccional,linkSeccional,rectorSeccional,@fechaInicioSeccional)
+SET fechaInicioSeccional = STR_TO_DATE(@fechaInicioSeccional, '%d/%m/%Y')
+...............................................................................................27/06/2017........................................................
+LOAD DATA INFILE 'C:/temporal_usta/sedes.csv'
+INTO TABLE sedes
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idSede,nombreSede,ciudad,direccion,idSeccional_forean2sede)
+.......................................................................................................................................................
+LOAD DATA INFILE 'C:/temporal_usta/divisiones.csv'
+INTO TABLE divisiones
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idDivision,nombreDivision,numeroFacultades,decanoDivision,secretarioDivision,idSeccional_forean2division)
+.......................................................................................................................................................
+LOAD DATA INFILE 'C:/temporal_usta/facultades.csv'
+INTO TABLE facultades
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idFacultad,nombreFacultad,decanoFacultad,secretarioFacultad,idDivision_forean2facu)
+.......................................................................................................................................................
+LOAD DATA INFILE 'C:/temporal_usta/programas.csv'
+INTO TABLE programas
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idPrograma,nombrePrograma,modalidad,idDivision_forean2program)
+.......................................................................................................................................................
+LOAD DATA INFILE'C:/temporal_usta/pensum.csv'
+INTO TABLE pensum
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idPensum,nombrePensum,creditos,duracion,@fechaInicio,@fechaFinalizacion,idPrograma_forean2pensum)
+SET fechaInicio = STR_TO_DATE(@fechaInicio, '%d/%m/%Y'), fechaFinalizacion = STR_TO_DATE(@fechaFinalizacion, '%d/%m/%Y')
+.......................................................................................................................................................
+LOAD DATA INFILE 'C:/temporal_usta/asignaturas.csv'
+INTO TABLE asignaturas
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idAsignatura,nombreAsignatura,semestre,idPensum_Forean2asig)
+.......................................................................................................................................................
+LOAD DATA INFILE 'C:/temporal_usta/estudiantes.csv'
+INTO TABLE estudiantes
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(idEstudiante,nombreEstudiante,semestre,idAsignatura_forean2est,nombreAsignatura_forean2est)
+.......................................................................................................................................................

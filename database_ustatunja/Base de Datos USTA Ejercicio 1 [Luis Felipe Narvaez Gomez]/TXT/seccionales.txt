@@ -1,0 +1,7 @@
+idSeccional,nombreSeccional,direccionSeccional,ciudadSeccional,departamentoDeSeccional,linkSeccional,rectorSeccional,fechaInicioSeccional
+11,ustaTunja,Cll. 48 No. 1-235 este,Tunja,Boyaca,https://www.ustatunja.edu.co/,Padre 1,11/12/1997
+12,ustaBogota,carrera 9 n.° 51-11,Bogota,Cundinamarca,https://www.usta.edu.co/,Padre 2,12/12/1997
+13,ustaBucaramanga ,Cra. 18 Nº 9 - 27,Bucaramanga,Santander,http://www.ustabuca.edu.co/,Padre 3,13/12/1997
+14,ustaMedellin,Carrera 82 # 77 BB - 27,Medellin,Antioquia,https://www.ustamed.edu.co/,Padre 4,14/12/1997
+15,ustaVillavicencio ,Carrera 22 con Calle 1a - Vía Puerto López,Villavicencio,Meta,https://www.ustavillavicencio.edu.co/index.php,Padre 5,15/12/1997
+16,ustaVuad,carrera 9 n.° 51-11 ,Bogota,Cundinamarca,https://www.ustadistancia.edu.co/,Padre 6,16/12/1997

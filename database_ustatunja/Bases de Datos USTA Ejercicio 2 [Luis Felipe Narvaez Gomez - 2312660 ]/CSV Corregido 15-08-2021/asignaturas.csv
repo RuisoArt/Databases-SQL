@@ -1,0 +1,192 @@
+idAsignatura,nombreAsignatura,semestre,idSeccional,idPrograma
+15522,Quimica General,Primero,11,10510
+15523,Calculo Diferencial,Primero,11,10510
+15524,Algebra Lineal,Primero,11,10510
+15525,Introduccion a la Ingenieria Electronica,Primero,11,10510
+15526,Catedra de Henri Didon,Primero,11,10510
+15527,Filosofia Institucional,Primero,11,10510
+15528,Ingles I,Primero,11,10510
+15529,Fisica mecanica,Segundo,11,10510
+15530,Calculo Integral,Segundo,11,10510
+15531,Logica de Programacion,Segundo,11,10510
+15532,Fundamentos de circuitos,Segundo,11,10510
+15533,Comunicación oral y escrita,Segundo,11,10510
+15534,Antropologia,Segundo,11,10510
+15535,Ingles II,Segundo,11,10510
+15536,Electricidad y magnetismo,Tercero,11,10510
+15537,Calculo Vectorial,Tercero,11,10510
+15538,Sistemas digitales I,Tercero,11,10510
+15539,Electronica I,Tercero,11,10510
+15540,Circuitos I,Tercero,11,10510
+15541,Ingles III,Tercero,11,10510
+15542,Ecuaciones Diferenciales,Cuarto,11,10510
+15543,Sistemas digitales II,Cuarto,11,10510
+15544,Electronica II,Cuarto,11,10510
+15545,Circuitos II,Cuarto,11,10510
+15546,Epistemologia,Cuarto,11,10510
+15547,Ingles IV,Cuarto,11,10510
+15548,Ondas y Electromagnetismo,Quinto,11,10510
+15549,Probabilidad y estadistica,Quinto,11,10510
+15550,Programacion,Quinto,11,10510
+15551,Electronica III,Quinto,11,10510
+15552,Señales y sistemas,Quinto,11,10510
+15553,Ingles V,Quinto,11,10510
+15554,Procesamiento Digital de Señales,Sexto,11,10510
+15555,Semiconductores,Sexto,11,10510
+15556,Conversion electromagnetica,Sexto,11,10510
+15557,Identificacion y modelado de sistemas,Sexto,11,10510
+15558,Teoria de la comunicación,Sexto,11,10510
+15559,Ingles VI,Sexto,11,10510
+15560,Instrumentacion Industrial,Septimo,11,10510
+15561,Electronica de Potencia,Septimo,11,10510
+15562,Control analogico,Septimo,11,10510
+15563,Comunicaciones inalambricas,Septimo,11,10510
+15564,Optativa Administrativa I,Septimo,11,10510
+15565,Cultura Teologica,Septimo,11,10510
+15566,Control Digital,Octavo,11,10510
+15567,Transmision de datos,Octavo,11,10510
+15568,Proyecto de Investigacion o desarrollo I,Octavo,11,10510
+15569,Electiva de profundizacion I,Octavo,11,10510
+15570,Optativa Administrativa II,Octavo,11,10510
+15571,Filodofia Politica,Octavo,11,10510
+15572,Automatizacion Industrial,Noveno,11,10510
+15573,Proyecto de Investigacion o desarrollo II,Noveno,11,10510
+15574,Electiva de profundizacion II,Noveno,11,10510
+15575,Catedra opcional complementaria,Noveno,11,10510
+15576,Optativa administrativa III,Noveno,11,10510
+15577,Etica,Noveno,11,10510
+15578,Opcion de Grado,Decimo,11,10510
+15579,Electiva de Profundizacion III,Decimo,11,10510
+15580,Catedra opcional Institucional,Decimo,11,10510
+15617,Fundamentos del Diseño,Primero,12,10545
+15618,Geometria del Diseño,Primero,12,10545
+15619,Historia del Arte y del Diseño I,Primero,12,10545
+15620,Teoria de la comunicación,Primero,12,10545
+15621,Filosofia Institucional,Primero,12,10545
+15622,Comunicaicon Oral y Escrita,Primero,12,10545
+15623,Pensamiento Logico,Primero,12,10545
+15624,Catedra Henri Didon,Primero,12,10545
+15625,Diseño Tipografico,Segundo,12,10545
+15626,Dibujo a Mano Alzada,Segundo,12,10545
+15627,Comunicación Visual,Segundo,12,10545
+15628,Aplicaciones Informaticas I,Segundo,12,10545
+15629,Historia del arte y del Diseño II,Segundo,12,10545
+15630,Epistemologia,Segundo,12,10545
+15631,Ingles I,Segundo,12,10545
+15632,Diseño Editorial,Tercero,12,10545
+15633,Aplicaciones Informaticas II,Tercero,12,10545
+15634,Diseño y sociedad ,Tercero,12,10545
+15635,Ilustracion I,Tercero,12,10545
+15636,Procesos de Produccion,Tercero,12,10545
+15637,Cultura Teologica,Tercero,12,10545
+15638,Ingles II,Tercero,12,10545
+15639,Identidad Grafica,Cuarto,12,10545
+15640,Fotografia,Cuarto,12,10545
+15641,Ilustracion II,Cuarto,12,10545
+15642,Aplicaciones Informaticas III,Cuarto,12,10545
+15643,Investigacion I,Cuarto,12,10545
+15644,Antropologia,Cuarto,12,10545
+15645,Ingles III,Cuarto,12,10545
+15646,Campañas Promocionales,Quinto,12,10545
+15647,Ecodiseño,Quinto,12,10545
+15648,Teoria del Diseño,Quinto,12,10545
+15649,Fundamentos de Administracion,Quinto,12,10545
+15650,Investigacion II,Quinto,12,10545
+15651,Filosofia politica,Quinto,12,10545
+15652,Ingles IV,Quinto,12,10545
+15653,Enfasis Conceptual I,Sexto,12,10545
+15654,Enfasis Proyectual I,Sexto,12,10545
+15655,Emprendimiento y Creacion de Empresas,Sexto,12,10545
+15656,Investigacion - Creacion,Sexto,12,10545
+15657,Etica,Sexto,12,10545
+15658,Ingles V,Sexto,12,10545
+15659,Electiva Profesional I,Sexto,12,10545
+15660,Enfasis Conceptual II,Septimo,12,10545
+15661,Enfasis Proyectual II,Septimo,12,10545
+15662,Formulacion y Gestion de Proyectos,Septimo,12,10545
+15663,Catedra Opcional,Septimo,12,10545
+15664,Ingles VI,Septimo,12,10545
+15665,Electiva Profesional II,Septimo,12,10545
+15666,Trabajo de Grado,Octavo,12,10545
+15667,Electiva Profesional III,Octavo,12,10545
+15668,Electiva Profesional IV,Octavo,12,10545
+15723,Bioquímica,Primero,13,10598
+15724,Histología,Primero,13,10598
+15725,Optometría Básica,Primero,13,10598
+15726,Comunicación Oral y Escrita,Primero,13,10598
+15727,Fundamentos de Pensamiento lógico,Primero,13,10598
+15728,Filosofía Institucional,Primero,13,10598
+15729,Lengua Extranjera I,Primero,13,10598
+15730,Cátedra Henry Didon,Primero,13,10598
+15731,Microbiología,Segundo,13,10598
+15732,Refracción Objetiva,Segundo,13,10598
+15733,Óptica Geométrica,Segundo,13,10598
+15734,Antropología,Segundo,13,10598
+15735,Cátedra de Profundización Profesional I: Lenguaje Gestual,Segundo,13,10598
+15736,Cátedra de Profundización Profesional I: Primeros Auxilios,Segundo,13,10598
+15737,Cátedra Opcional Institucional I,Segundo,13,10598
+15738,Lengua Extranjera II,Segundo,13,10598
+15739,Técnicas Diagnósticas en Estructuras Oculares,Tercero,13,10598
+15740,Morfofisiología del Sistema Visual,Tercero,13,10598
+15741,Refracción Subjetiva,Tercero,13,10598
+15742,Física Óptica,Tercero,13,10598
+15743,Epistemología,Tercero,13,10598
+15744,Cátedra de Profundización Profesional II: PsicologÍa en Salud,Tercero,13,10598
+15745,Cátedra de Profundización Profesional II: Humanización del Servicio,Tercero,13,10598
+15746,Lengua Extranjera III,Tercero,13,10598
+15747,Cátedra Opcional Institucional II,Tercero,13,10598
+15748,Semiología Clínica Ocular,Cuarto,13,10598
+15749,Patología Ocular de Segmento Anterior,Cuarto,13,10598
+15750,Motilidad Ocular,Cuarto,13,10598
+15751,Neurofisiología Visual,Cuarto,13,10598
+15752,Óptica Fisiológica,Cuarto,13,10598
+15753,Cultura Teológica,Cuarto,13,10598
+15754,Lengua Extranjera IV,Cuarto,13,10598
+15755,Patología Ocular de Segmento Posterior,Quinto,13,10598
+15756,Análisis Clínico Refractivo,Quinto,13,10598
+15757,Optometría Pediátrica,Quinto,13,10598
+15758,Óptica Oftálmica,Quinto,13,10598
+15759,Introducción a la Investigación en Optometría,Quinto,13,10598
+15760,Filosofía Política,Quinto,13,10598
+15761,Lengua Extranjera V,Quinto,13,10598
+15762,Clínica Básica,Sexto,13,10598
+15763,Análisis Clínico Integral,Sexto,13,10598
+15764,Exámenes Especializados para el Diagnóstico Ocular,Sexto,13,10598
+15765,Rehabilitación Visual y Baja Visión,Sexto,13,10598
+15766,Epidemiología,Sexto,13,10598
+15767,Ética,Sexto,13,10598
+15768,Cátedra de Profundización Profesional III: Auditoría en Salud ,Sexto,13,10598
+15769,Cátedra de Profundización Profesional III: Responsabilidad Legal en Optometría,Sexto,13,10598
+15770,Lengua Extranjera VI,Sexto,13,10598
+15771,Seguridad y Salud Visual en el Trabajo,Septimo,13,10598
+15772,Clínica de Cuidado Primario I,Septimo,13,10598
+15773,Clínica del Segmento Anterior,Septimo,13,10598
+15774,Lentes de Contacto,Septimo,13,10598
+15775,Terapia Visual y Ortóptica,Septimo,13,10598
+15776,Prótesis oculares,Septimo,13,10598
+15777,Seminario de Investigación I,Septimo,13,10598
+15778,Cátedra de Profundización Profesional IV: Fotografía Ocular,Septimo,13,10598
+15779,Cátedra de Profundización Profesional IV: Manejo Perioperatorio Interdisciplinario en Cirugía Ocular,Septimo,13,10598
+15780,Clínica de Cuidado Primario II,Octavo,13,10598
+15781,Clínica del Segmento Posterior,Octavo,13,10598
+15782,Clínica de Lentes de Contacto,Octavo,13,10598
+15783,Clínica de Terapia Visual,Octavo,13,10598
+15784,Estrabismos y Ambliopía,Octavo,13,10598
+15785,Ocular Emergencies,Octavo,13,10598
+15786,Seminario de Investigación II,Octavo,13,10598
+15787,Cátedra de Profundización Profesional V: Gerencia en Optometría,Octavo,13,10598
+15788,Cátedra de Profundización Profesional V: Mercadeo en Optometría,Octavo,13,10598
+15789,Cátedra Opcional Institucional III,Octavo,13,10598
+15790,Práctica Comunitaria,Noveno,13,10598
+15791,Clínica Integral,Noveno,13,10598
+15792,Clínica del Cuidado Primario Pediátrico,Noveno,13,10598
+15793,Liderazgo y Emprendimiento Optométrico,Noveno,13,10598
+15794,Ejercicio Profesional Basado en la Evidencia,Noveno,13,10598
+15795,Clínica de Profundización: Clínica de Ortóptica y Terapia Visual,Noveno,13,10598
+15796,Clínica de Profundización: Clínica de Rehabilitación Visual y Baja Visión,Noveno,13,10598
+15797,Cátedra de Profundización Profesional VI: Geriatría en Optometría,Noveno,13,10598
+15798,Cátedra de Profundización Profesional VI: Cuidado Primario Avanzado,Noveno,13,10598
+15799,Práctica Profesional,Decimo,13,10598
+15800,Cátedra Opcional Complementaria I,Decimo,13,10598
+15801,Cátedra Opcional Complementaria II,Decimo,13,10598
+15802,Cátedra Opcional Complementaria III,Decimo,13,10598

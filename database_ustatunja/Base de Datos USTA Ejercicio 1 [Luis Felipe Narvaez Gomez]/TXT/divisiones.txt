@@ -1,0 +1,18 @@
+idDivision,nombreDivision,numeroFacultades,decanoDivision,secretarioDivision,idSeccional
+112,Nuevas sin clasificacion ,2,Decano 1,Secretario 1,11
+113,Division de Ciencias Economicas, Administrativas y Contables,10,Decano 2,Secretario 2,11
+114,Division de Ciencias Juridicas y Politicas,12,Decano 3,Secretario 3,11
+115,Division de Arquitectura e Ingenierias,14,Decano 4,Secretario 4,11
+116,Division de Ciencias de la Salud,1,Decano 5,Secretario 5,11
+117,Centro de Estudios Enrique Lacordaire,1,Decano 6,Secretario 6,11
+119,Division de ciencias Juridicas y Politicas,2,Decano 7,Secretario 7,12
+120,Division de Ciencias de la Salud,2,Decano 8,Secretario 8,12
+121,Division de Ciencias Sociales,3,Decano 9,Secretario 9,12
+122,Division de Filosofia y Teologia,2,Decano 10,Secretario 10,12
+123,Division de Ingenierias,6,Decano 11,Secretario 11,12
+124,division de Ciencias Administrativas y economicas,6,Decano 12,Secretario 12,12
+125,Division de Educacion Abierta y a distancia,2,Decano 13,Secretario 13,12
+127,Division de Ciencias de la Salud,4,Decano 14,Secretario 14,13
+128,Division de Ingenierias y Arquitectura,7,Decano 15,Secretario 15,13
+129,Division de Ciencias Economicas , Administrativas y contables,5,Decano 16,Secretario 16,13
+130,Division de Ciencias Juridicas y Politicas,1,Decano 17,Secretario 17,13
