@@ -1,0 +1,79 @@
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/Catalog.csv'
+INTO TABLE catalog
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_catalog,tattoo_catalog_url,FK_id_tattoo_shop)
+
+-------------------------------------------------------------------------------------
+
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/Client.csv'
+INTO TABLE client
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_client,internal_number_client,FK_id_person)
+
+-------------------------------------------------------------------------------------
+
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/Employee.csv'
+INTO TABLE employee
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_employee,internal_number_employee,FK_id_person)
+
+-------------------------------------------------------------------------------------
+
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/Person.csv'
+INTO TABLE person
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_person,name_person,address_person,phone,e_mail,indentification,FK_person_type,FK_tattoo_shop)
+
+-------------------------------------------------------------------------------------
+
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/PersonType.csv'
+INTO TABLE person_type
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_person_type,person_type,amount_person_type)
+
+-------------------------------------------------------------------------------------
+
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/Provider.csv'
+INTO TABLE provider
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_provider,nit,url,FK_id_person)
+
+-------------------------------------------------------------------------------------
+
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/TattooShop.csv'
+INTO TABLE tattoo_shops
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_tattoo_shop,name,address,city,department,phone,actual_state)
+
+-------------------------------------------------------------------------------------
+
+LOAD DATA INFILE 'C:/temporal_usta/bd_tattoo_shop/TimeTable.csv'
+INTO TABLE time_table
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id_time_table,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,FK_id_tattoo_shop)
+
+-------------------------------------------------------------------------------------

@@ -1,0 +1,24 @@
+id_time_table,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,FK_id_tattoo_shop
+10,09:00 a 20:30,09:00 a 20:30,09:00 a 20:30,09:00 a 20:30,09:00 a 20:30,09:00 a 20:30,Cerrado,1
+20,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,11:00 a 14:30,2
+30,10:00 a 19:00,10:00 a 19:00,10:00 a 19:00,10:00 a 19:00,10:00 a 19:00,10:00 a 19:00,Cerrado,3
+40,09:00 a 21:00,09:00 a 21:00,09:00 a 21:00,09:00 a 21:00,09:00 a 21:00,09:00 a 21:00,08:00 a 18:00,4
+50,10:00 a 20:30,10:00 a 20:30,10:00 a 20:30,10:00 a 20:30,10:00 a 20:30,10:00 a 20:30,11:00 a 20:30,5
+60,09:00 a 18:00,09:00 a 18:00,09:00 a 18:00,09:00 a 18:00,09:00 a 18:00,Cerrado,Cerrado,6
+70,09:00 a 19:00,09:00 a 19:00,09:00 a 19:00,09:00 a 19:00,09:00 a 19:00,09:00 a 19:00,Cerrado,7
+80,14:00 a 20:00,14:00 a 20:00,14:00 a 20:00,14:00 a 20:00,14:00 a 20:00,14:00 a 20:00,Cerrado,8
+90,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,9
+100,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,10
+110,10:00 a 20:00,10:00 a 20:00,10:00 a 20:00,10:00 a 20:00,10:00 a 20:00,10:00 a 20:00,Cerrado,11
+120,09:00 a 18:00,09:00 a 18:00,09:00 a 18:00,09:00 a 18:00,09:00 a 18:00,09:00 a 18:00,Cerrado,12
+130,11:00 a 20:00,11:00 a 20:00,11:00 a 20:00,11:00 a 20:00,11:00 a 20:00,11:00 a 20:00,11:00 a 20:00,13
+140,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,2
+150,09:00 a 20:00,09:00 a 20:00,09:00 a 20:00,09:00 a 20:00,09:00 a 20:00,09:00 a 20:00,09:00 a 20:00,14
+160,09:30 a 18:00,09:30 a 18:00,09:30 a 18:00,09:30 a 18:00,09:30 a 18:00,09:30 a 18:00,Cerrado,15
+170,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,Cerrado,2
+180,09:00  a 19:00,09:00  a 19:00,09:00  a 19:00,09:00  a 19:00,09:00  a 19:00,09:00  a 19:00,09:00 a 17:00,17
+190,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,18
+200,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,19
+210,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,10:00 a 19:30,Cerrado,20
+220,05:00 a 19:00,05:00 a 19:00,05:00 a 19:00,05:00 a 19:00,05:00 a 19:00,05:00 a 19:00,Cerrado,21
+230,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,Sin horario,22
