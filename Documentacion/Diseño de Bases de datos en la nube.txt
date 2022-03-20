@@ -1,0 +1,9 @@
+De acuerdo con la consulta, realizar a mano en una hoja de examen un gráfico que represente las diferentes fases o etapas en el diseño de una base de datos, los términos que sean nuevos o desconocidos se deben consultar e incluir en un glosario al respaldo de la hoja, éstos serán abordados en clase. 
+
+Crear una cuenta académica en:
+
+https://my.vertabelo.com/sign-up/create-academic
+
+Revisar estas otras opciones de diseño de BD en la nube:
+
+https://ingenieriadesoftware.es/herramientas-modelar-diagramas-uml-online-navegador/

@@ -1,0 +1,3 @@
+Oracle® SQL Developer
+Data Modeler User's Guide
+https://docs.oracle.com/database/sql-developer-data-modeler-18.1/DMDUG/DMDUG.pdf

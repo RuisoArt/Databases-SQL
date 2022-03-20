@@ -1,0 +1,2 @@
+PostgresSQL Instalar en Ubuntu (Linux)
+https://www.youtube.com/watch?v=3mvDmsKrQWM&t=8s

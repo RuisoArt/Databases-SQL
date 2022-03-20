@@ -1,0 +1,24 @@
+--descarga e instalacion de oracle 19 en windows 10
+https://www.oracle.com/technetwork/es/articles/database-performance/instal-oracle19c-window-5592361-esa.html
+
+documentacion oficial oracle 19c
+https://docs.oracle.com/en/database/oracle/oracle-database/19/admqs/toc.htm
+
+desinstalar oracle 19c de windows:
+https://www.mkyong.com/oracle/how-to-uninstall-oracle-database-19c-on-windows/
+
+
+instalar oracle 18c XE:
+https://www.oracle.com/technetwork/es/articles/apex/instalar-bd-oraclexe18c-5487194-esa.html
+
+crear una base de datos plugable en XE:
+https://oraxedatabase.blogspot.com/2019/02/crear-una-base-de-datos-conectable.html
+
+documentacion oracle 18c XE
+https://docs.oracle.com/en/database/oracle/oracle-database/18/install-and-upgrade.html
+
+conectar sqldeveloper con postgresQL
+https://www.pchardwarepro.com/gestion-de-postgresql-con-oracle-sql-developer/
+
+Multitenant
+https://oraxedatabase.blogspot.com/2018/11/multitenant-en-oracle-18c-xe.html

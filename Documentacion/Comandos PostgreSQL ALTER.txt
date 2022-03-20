@@ -1,0 +1,2 @@
+Comandos PostgreSQL alter
+https://www.todopostgresql.com/comandos-postgresql-alter/

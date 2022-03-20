@@ -1,0 +1,2 @@
+Manuales Sintaxis de sentencias SQL
+https://manuales.guebs.com/mysql-5.0/sql-syntax.html

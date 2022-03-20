@@ -1,0 +1,3 @@
+https://www.w3schools.com/sql/func_mysql_adddate.asp
+https://www.w3schools.com/sql/func_mysql_date_format.asp
+https://www.w3schools.com/sql/sql_ref_mysql.asp

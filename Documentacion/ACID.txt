@@ -1,0 +1,6 @@
+ACID
+
+A atomicidad --> todas las lineas de las transacciones deben ser ejecutadas o ninguna
+C consistencia --> despues de la consulta o cambio de la transaccion, el DataBase debe quedar intacto y coherente con las reglas de creacion
+I aislamiento --> cada transaccion se correra en serie debe ser aislada una de otra para evitar conflictos
+D durabilidad --> una vez hecha la transaccion, la informacion debe presentarse al cliente que la solicito, asi se caiga el DataBase, esto hasta que se cambie de transaccion o se refresque

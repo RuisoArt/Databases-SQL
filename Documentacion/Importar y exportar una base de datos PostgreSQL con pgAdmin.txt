@@ -1,0 +1,2 @@
+Importar y exportar una base de datos PostgreSQL con pgAdmin
+https://www.pchardwarepro.com/importar-y-exportar-una-base-de-datos-postgresql-con-pgadmin/

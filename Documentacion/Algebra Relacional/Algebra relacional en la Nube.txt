@@ -1,0 +1,9 @@
+Elaborar en una hoja de examen a mano un trabajo escrito sobre álgebra relacional indicando qué es y en qué consisten todas y cada una de las operaciones con un ejemplo para cada caso. 
+
+También es necesario ingresar al siguiente enlace para que se vayan familiarizando con el software relax que usaremos para desarrollar el tema:
+
+
+
+https://dbis-uibk.github.io/relax/calc/local/uibk/local/0
+
+http://clotho.uom.gr/relax/calc.htm?lang=es

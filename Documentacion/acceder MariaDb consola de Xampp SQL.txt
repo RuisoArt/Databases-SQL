@@ -1,0 +1,11 @@
+D:\>cd D:\Software\Xampp\mysql\bin
+D:\Software\Xampp\mysql\bin>mysql -u root
+
+create database mydb;
+use mydb;
+create table MiTabla (
+	id INT,
+	nombre VARCHAR(20)
+	);
+show full tables from mydb;
+describe miTabla;

@@ -1,0 +1,275 @@
+Microsoft Windows [Versión 10.0.19043.1237]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\ruiso>cd ..
+
+C:\Users>cd ..
+
+C:\>d:
+
+D:\>cd D:\Software\Xampp\mysql\bin
+
+D:\Software\Xampp\mysql\bin>mysql -u root
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 18
+Server version: 10.4.21-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> create database mydb;
+Query OK, 1 row affected (0.001 sec)
+
+MariaDB [(none)]> use mydb;
+Database changed
+MariaDB [mydb]> create table miTabla (
+    -> id_miTabla INT,
+    -> nombre VARCHAR(20)
+    -> );
+Query OK, 0 rows affected (0.294 sec)
+
+MariaDB [mydb]> SHOW FULL tables FROM mydb;
++----------------+------------+
+| Tables_in_mydb | Table_type |
++----------------+------------+
+| mitabla        | BASE TABLE |
++----------------+------------+
+1 row in set (0.043 sec)
+
+MariaDB [mydb]> DESCRIBE mitabla;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| id_miTabla | int(11)     | YES  |     | NULL    |       |
+| nombre     | varchar(20) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+2 rows in set (0.102 sec)
+
+MariaDB [mydb]> INSERT INTO mitabla VALUES (1,'Luis');
+Query OK, 1 row affected (0.219 sec)
+
+MariaDB [mydb]> INSERT INTO mitabla VALUES (2,'Felipe');
+Query OK, 1 row affected (0.125 sec)
+
+MariaDB [mydb]> INSERT INTO mitabla VALUES (3,'Narvaez');
+Query OK, 1 row affected (0.136 sec)
+
+MariaDB [mydb]> INSERT INTO mitabla VALUES (4,'Gomez');
+Query OK, 1 row affected (0.124 sec)
+
+MariaDB [mydb]> SELECT * FROM mitabla;
++------------+---------+
+| id_miTabla | nombre  |
++------------+---------+
+|          1 | Luis    |
+|          2 | Felipe  |
+|          3 | Narvaez |
+|          4 | Gomez   |
++------------+---------+
+4 rows in set (0.004 sec)
+
+MariaDB [mydb]> SELECT id_miTabla AS "Id", nombre AS "Nombre" FROM mitabla WHERE id_miTabla = 1;
++------+--------+
+| Id   | Nombre |
++------+--------+
+|    1 | Luis   |
++------+--------+
+1 row in set (0.111 sec)
+
+MariaDB [mydb]> UPDATE mitabla SET nombre = 'Ruiso' WHERE id_miTabla = 1;
+Query OK, 1 row affected (0.126 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [mydb]> SELECT * FROM mitabla
+    ->
+    -> ;
++------------+---------+
+| id_miTabla | nombre  |
++------------+---------+
+|          1 | Ruiso   |
+|          2 | Felipe  |
+|          3 | Narvaez |
+|          4 | Gomez   |
++------------+---------+
+4 rows in set (0.000 sec)
+
+MariaDB [mydb]> SELECT id_miTabla,nombre FROM mitabla;
++------------+---------+
+| id_miTabla | nombre  |
++------------+---------+
+|          1 | Ruiso   |
+|          2 | Felipe  |
+|          3 | Narvaez |
+|          4 | Gomez   |
++------------+---------+
+4 rows in set (0.000 sec)
+
+MariaDB [mydb]> SELECT id_miTabla AS "Id",nombre AS "NombrePersona" FROM mitabla;
++------+---------------+
+| Id   | NombrePersona |
++------+---------------+
+|    1 | Ruiso         |
+|    2 | Felipe        |
+|    3 | Narvaez       |
+|    4 | Gomez         |
++------+---------------+
+4 rows in set (0.000 sec)
+
+MariaDB [mydb]> SELECT nombre AS "NombrePersona" FROM mitabla;
++---------------+
+| NombrePersona |
++---------------+
+| Ruiso         |
+| Felipe        |
+| Narvaez       |
+| Gomez         |
++---------------+
+4 rows in set (0.000 sec)
+
+MariaDB [mydb]> SELECT nombre AS "NombrePersona" FROM mitabla WHERE id_miTabla = 2;
++---------------+
+| NombrePersona |
++---------------+
+| Felipe        |
++---------------+
+1 row in set (0.000 sec)
+
+MariaDB [mydb]> SELECT COUNT(1) AS "IdPersonas" FROM mitabla
+    -> ;
++------------+
+| IdPersonas |
++------------+
+|          4 |
++------------+
+1 row in set (0.109 sec)
+
+MariaDB [mydb]> SELECT COUNT(1) AS "CantidadId" FROM mitabla;
++------------+
+| CantidadId |
++------------+
+|          4 |
++------------+
+1 row in set (0.000 sec)
+
+MariaDB [mydb]> SELECT COUNT(id_miTabla) AS "CantidadId" FROM mitabla;
++------------+
+| CantidadId |
++------------+
+|          4 |
++------------+
+1 row in set (0.000 sec)
+
+MariaDB [mydb]> SELECT COUNT(2) AS "CantidadNombres" FROM mitabla;
++-----------------+
+| CantidadNombres |
++-----------------+
+|               4 |
++-----------------+
+1 row in set (0.000 sec)
+
+MariaDB [mydb]> SELECT COUNT(nombre) AS "CantidadNombres" FROM mitabla;
++-----------------+
+| CantidadNombres |
++-----------------+
+|               4 |
++-----------------+
+1 row in set (0.000 sec)
+
+MariaDB [mydb]> SELECT SUM(nombre) AS "TotalNombres" FROM mitabla;
++--------------+
+| TotalNombres |
++--------------+
+|            0 |
++--------------+
+1 row in set, 4 warnings (0.106 sec)
+
+MariaDB [mydb]> -- pues son datos varchar, no se pueden sumar
+MariaDB [mydb]> SELECT SUM(id_miTabla) AS "Total_SUMA_Id" FROM mitabla;
++---------------+
+| Total_SUMA_Id |
++---------------+
+|            10 |
++---------------+
+1 row in set (0.000 sec)
+
+MariaDB [mydb]> --- suma los datos que estan contenidos en la columna id_miTabla
+MariaDB [mydb]> CREATE TABLE IF NOT EXIST usuarios (
+    -> id_usr INT UNSIGNED NOT NULL,
+    -> name_usr VARCHAR(30) NOT NULL,
+    -> PRIMARY KEY(id_usr)
+    -> )ENGINE = InnoDB;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST usuarios (
+id_usr INT UNSIGNED NOT NULL,
+name_usr VARCHAR(30) NOT NULL,...' at line 1
+MariaDB [mydb]> CREATE TABLE IF NOT EXISTS usuarios (
+    -> id_usr INT UNSIGNED NOT NULL,
+    -> name_usr VARCHAR(30) NOT NULL,
+    -> PRIMARY KEY(id_usr)
+    -> )ENGINE = InnoDB;
+Query OK, 0 rows affected (0.280 sec)
+
+MariaDB [mydb]> SELECT * FROM usuarios;
+Empty set (0.004 sec)
+
+MariaDB [mydb]> DESCRIBE usuarios;
++----------+------------------+------+-----+---------+-------+
+| Field    | Type             | Null | Key | Default | Extra |
++----------+------------------+------+-----+---------+-------+
+| id_usr   | int(10) unsigned | NO   | PRI | NULL    |       |
+| name_usr | varchar(30)      | NO   |     | NULL    |       |
++----------+------------------+------+-----+---------+-------+
+2 rows in set (0.119 sec)
+
+MariaDB [mydb]> SHOW FULL tables FROM mydb;
++----------------+------------+
+| Tables_in_mydb | Table_type |
++----------------+------------+
+| mitabla        | BASE TABLE |
+| usuarios       | BASE TABLE |
++----------------+------------+
+2 rows in set (0.001 sec)
+
+MariaDB [mydb]> DROP TABLE mitabla;
+Query OK, 0 rows affected (0.290 sec)
+
+MariaDB [mydb]> SHOW FULL tables FROM mydb;
++----------------+------------+
+| Tables_in_mydb | Table_type |
++----------------+------------+
+| usuarios       | BASE TABLE |
++----------------+------------+
+1 row in set (0.001 sec)
+
+MariaDB [mydb]> CREATE TABLE IF NOT EXISTS comentarios(
+    -> id_cmt INT UNSIGNED NOT NULL,
+    -> sms VARCHAR(200) NOT NULL,
+    -> id_usr INT UNSIGNED NOT NULL,
+    -> PRIMARY KEY(id_cmt),
+    -> INDEX(id_usr),FOREIGN KEY(id_usr)
+    -> REFERENCES usuarios(id_usr)
+    -> ON DELETE CASCADE
+    -> ON UPDATE NO ACTION
+    -> ) ENGINE = InnoDB;
+Query OK, 0 rows affected (0.268 sec)
+
+MariaDB [mydb]> SHOW FULL tables FROM mydb;
++----------------+------------+
+| Tables_in_mydb | Table_type |
++----------------+------------+
+| comentarios    | BASE TABLE |
+| usuarios       | BASE TABLE |
++----------------+------------+
+2 rows in set (0.001 sec)
+
+MariaDB [mydb]> DESCRIBE comentarios;
++--------+------------------+------+-----+---------+-------+
+| Field  | Type             | Null | Key | Default | Extra |
++--------+------------------+------+-----+---------+-------+
+| id_cmt | int(10) unsigned | NO   | PRI | NULL    |       |
+| sms    | varchar(200)     | NO   |     | NULL    |       |
+| id_usr | int(10) unsigned | NO   | MUL | NULL    |       |
++--------+------------------+------+-----+---------+-------+
+3 rows in set (0.007 sec)
+
+MariaDB [mydb]>

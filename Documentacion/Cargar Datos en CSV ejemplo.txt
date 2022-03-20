@@ -1,0 +1,8 @@
+LOAD DATA INFILE 'c:/ficheros/seccionales.csv'
+INTO TABLE seccionales
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(IdSeccional,NombreSeccional,CIUDAD,DIRECCION,TELEFONO,RECTOR,@FechaInicio)
+SET FechaInicio = STR_TO_DATE(@FechaInicio, '%m/%d/%Y')

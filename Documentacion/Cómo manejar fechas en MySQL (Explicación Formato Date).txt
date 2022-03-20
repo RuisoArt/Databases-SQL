@@ -1,0 +1,3 @@
+Cómo manejar fechas en MySQL (Explicación Formato Date)
+
+https://byspel.com/como-manejar-fechas-en-mysql-explicacion-formato-date/
