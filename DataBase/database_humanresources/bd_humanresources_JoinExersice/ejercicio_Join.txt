@@ -10,7 +10,9 @@
 
 -- ACCEEDER A MARIA DB POR CMD
 
-D:\>cd D:\Software\Xampp MySQL\mysql\bin
+/*
+
+ D:\>cd D:\Software\Xampp MySQL\mysql\bin
 
 D:\Software\Xampp MySQL\mysql\bin>mysql -u root
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
@@ -509,3 +511,5 @@ WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID GROUP BY jefe HAVING COUNT(empleado
 SELECT concat(jefe.FIRST_NAME,' ', jefe.LAST_NAME) AS jefe, COUNT(empleado.LAST_NAME) AS numero_empleados 
 FROM employees empleado, employees jefe 
 WHERE empleado.MANAGER_ID = jefe.EMPLOYEE_ID GROUP BY jefe HAVING COUNT(empleado.LAST_NAME) < 3;
+
+*/
