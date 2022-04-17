@@ -1,0 +1,44 @@
+Introduccion a SQL
+
+SQL es un lenguaje de programacion para el acceso a bases de datos
+SQL se utiliza para acceder y manipular datos en cualquier base de datos de mercado, como por ejemplo:
+
+	MySQL
+	ORACLE
+	DB2
+	SQL Server
+	etc.
+
+SQL se compone de sentencias, cada una con una utilidad diferente y las vamos a estudiar en dos secciones, SQL Baico y SQL avanzado; con multitud de ejemplos para entenderlo perfectamente.
+
+	SQL BASICO
+
+		Estas son las sentencias basicas para SQL:
+
+			SELECT --> Para consultar datos
+			WHERE --> para incluir condiciones
+			ORDER BY --> para ordenar resultados
+			INSERT --> para insertar datos
+			UPDATE --> para actualizar datos
+			DELETE --> para borrar datos
+
+	SQL AVANZADO
+
+		Estas son las sentencias de SQL de forma de uso avanzado:
+
+			LIMIT --> para limitar numero de registros
+			LIKE --> para buscar por un patron
+			IN --> para seleccionar por multiples valores
+			BETWEEN --> para seleccionar por rango de valores
+			ALIAS --> para renombrar
+			JOIN --> para combinar tablas
+			UNION --> para combinar varios resultados
+			CREATE TABLE --> para crear una tabla
+			NULL --> para no indicar ningun valor
+			UNIQUE --> para identificar de manera unica
+			PRIMARY KEY --> para identificar cada fila de manera unica
+			FOREIGN KEY --> para identificar la clave primaria de otra tabla
+			DROP --> para borrar completamente una tabla o base de datos
+			TRUNCATE --> para borrar solo los datos de la tabla, no la estructura
+			CREATE VIEW --> para crear vistas de una tabla
+
