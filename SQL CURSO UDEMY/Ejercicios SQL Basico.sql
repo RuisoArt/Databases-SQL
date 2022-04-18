@@ -22,4 +22,31 @@ VALUES(7,'Luis','Pulido','Gomez','XYZ456789',89,2,0);
 SELECT *
 FROM PERSONAS;
 
--- 
+-- Actualizar el registro anteriormente creado porque Luis Pulido tiene 67 años en vez de 89
+
+UPDATE PERSONAS
+SET EDAD=67
+WHERE ( (lower(NOMBRE)=lower('Luis')) AND (upper(APELLIDO1)=upper('pulido')) );
+
+SELECT *
+FROM PERSONAS;
+
+-- Borrar el ultimo registro , el anterior, realizando lla seleccion por el nombre y los dos apellidos
+
+DELETE
+FROM PERSONAS
+WHERE (
+lower(NOMBRE)=lower('Luis') AND
+lower(APELLIDO1)=lower('Pulido') AND
+lower(APELLIDO2)=lower('Gomez')
+);
+
+SELECT *
+FROM PERSONAS;
+
+-- Seleccionar que tipo de productos hemos vendido sin repetirse
+
+SELECT DISTINCT PRODUCTO
+FROM PEDIDOS;
+
+
