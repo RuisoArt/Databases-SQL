@@ -1,3 +1,5 @@
+-- Ing. Luis Felipe Narvaez Gomez.
+
 -- Mostrar las columnas de nombre, apellido1, edad y dni de la tabla personas
 -- ordenadas por el DNI de menor a mayor
 -- y cuya edad sea superior a 40 años
